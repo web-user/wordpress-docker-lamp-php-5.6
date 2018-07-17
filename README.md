@@ -14,8 +14,6 @@ Linux/Apache/MySQL/PHP development environment optimized for xt:Commerce and TYP
 -	phpMyAdmin
 -	Colored bash prompt with git support
 -	Imagemagick
--	Default locale `de_DE.UTF-8`
--	Default localtime `Europe/Berlin`
 
 ### Web access
 
