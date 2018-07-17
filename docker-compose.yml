@@ -1,0 +1,45 @@
+version: '2.1'
+services:
+  php:
+    hostname: php
+    build: ./php
+    depends_on:
+      - db
+    volumes:
+      - "./php/conf.d/00-ioncube.ini:/usr/local/etc/php/conf.d/00-ioncube.ini"
+      - "./php/conf.d/99-custom.ini:/usr/local/etc/php/conf.d/99-custom.ini"
+      - "./php/home/.bash_aliases:/root/.bash_aliases"
+      - "./php/home/.bash_git:/root/.bash_git"
+      - "./php/home/.bash_profile:/root/.bash_profile"
+      - "./php/home/.bashrc:/root/.bashrc"
+      - "./php/home/.git-completion.bash:/root/.git-completion.bash"
+      - "./php/home/.git-prompt.sh:/root/.git-prompt.sh"
+      - "./php/home/.vimrc:/root/.vimrc"
+      - "./htdocs:/var/www/html"
+    ports:
+      - "8080:80"
+  db:
+    image: mysql:5.6
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: database
+    volumes:
+      - ./mysql/conf.d/custom.cnf:/etc/mysql/conf.d/custom.cnf
+      - ./mysql/data:/var/lib/mysql:rw
+    ports:
+      - "8181:3306"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=db
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    ports:
+     - 8282:80
+    volumes:
+     - ./phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
