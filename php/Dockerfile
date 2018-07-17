@@ -26,11 +26,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     imagemagick \
     libmagickwand-dev
 
-# locales
-RUN printf 'en_GB.UTF-8 UTF-8\n' >> /etc/locale.gen \
-    && printf 'en_US.UTF-8 UTF-8\n' >> /etc/locale.gen \
-    && printf 'de_DE.UTF-8 UTF-8\n' >> /etc/locale.gen \
-    && locale-gen
 
 ENV LANGUAGE=de_DE.UTF-8
 ENV LC_ALL=de_DE.UTF-8
