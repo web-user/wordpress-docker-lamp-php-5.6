@@ -1,7 +1,7 @@
 Docker LAMP
 ===========
 
-Linux/Apache/MySQL/PHP development environment optimized for xt:Commerce and TYPO3.
+Linux/Apache/MySQL/PHP development environment optimized for xt:Commerce and WordPress.
 
 ### Features
 
