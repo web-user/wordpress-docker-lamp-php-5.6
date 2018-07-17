@@ -48,6 +48,14 @@ If you are running under linux, please check your users pid and change pid in fi
 docker-compose build
 ```
 
+```
+docker inspect <container id> | grep "IPAddress"
+```
+
+```
+wp-config.php DB_HOST use IPAddress docker container mysql
+```
+
 Run
 ---
 
