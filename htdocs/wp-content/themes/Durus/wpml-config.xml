@@ -1,0 +1,24 @@
+<wpml-config>  
+    <admin-texts>
+    	<key name="google_analytics" />
+		<key name="custom_css" />
+		<key name="brad_options" />
+        <key name="textarea_copyright" />
+        <key name="email_topbar" />
+        <key name="phone_topbar" />
+        <key name="h4_slogan" />
+        <key name="breacrumb_prefix" />
+        <key name="footer_text" />
+        <key name="Blog Title" />
+        <key name="portfolio_slug" />
+    </admin-texts>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">carousels</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">carousel_category</taxonomy>
+	</taxonomies>
+</wpml-config>

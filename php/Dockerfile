@@ -27,18 +27,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libmagickwand-dev
 
 
-ENV LANGUAGE=de_DE.UTF-8
-ENV LC_ALL=de_DE.UTF-8
-ENV LC_CTYPE=UTF-8
-ENV LANG=de_DE.UTF-8
-
-# localtime
-ENV TZ='Europe/Berlin'
-RUN echo $TZ > /etc/timezone \
-    && rm /etc/localtime \
-    && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
-    && dpkg-reconfigure -f noninteractive tzdata
-
 # php modules
 RUN docker-php-ext-install -j$(nproc) \
     mysqli \

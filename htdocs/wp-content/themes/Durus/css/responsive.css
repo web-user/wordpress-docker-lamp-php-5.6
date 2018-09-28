@@ -1,0 +1,357 @@
+
+.hidden-desktop {
+  display: none !important;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 1000px) {
+	
+#main_navigation  .row-fluid .row-fluid ,
+#top_bar .row-fluid .row-fluid{
+	margin-top:0!important;
+}
+
+#top_bar .row-fluid > [class*="span"]{
+	width:100%!important;
+	float:none!important;
+}
+
+#top_bar .row-fluid > [class*="span"],
+#main_navigation .row-fluid > [class*="span"]{
+	padding-bottom:0!important;
+	margin-top:0!important;
+}
+	
+#header {
+	position:relative!important;
+	height: 80px!important;
+}
+#top_bar,
+#top_bar .top-menu {
+	height: auto;
+	text-align: center;
+}
+
+#top_bar .contact-info,
+#top_bar .social-icons-container ,
+#top_bar .top-menu{
+	width: 100%;
+	float: none;
+	clear: both;
+	margin-bottom: 5px
+}
+#top_bar .social-icons li,
+#top_bar .contact-info span,
+#top_bar .top-menu li {
+	float: none;
+	display: inline-block;
+}
+
+
+#top_bar .topbar-left-content .social-icons li{
+	border-bottom-width:1px!important;
+}
+
+#top_bar .topbar-right-content .social-icons li{
+	border-top-width:1px!important;
+}
+
+#top_bar .social-icons {
+	width: 100%;
+	float: none;
+	margin-top:-8px;
+}
+.nav-container{
+	display:none;
+}
+
+#logo{
+	height:80px!important;
+	line-height:80px!important;
+}
+
+#toggle-menu , .carticon-mobile{
+	display: inline-block;
+	float: right!important;
+	width: auto!important;
+	line-height:80px!important;
+	height:80px!important;
+}
+
+}
+
+
+/* !- 800 ( large portrait tablets  and large landscape phones ) */
+@media screen and (max-width: 800px) {
+
+.row-fluid > [class*="span"] {
+	width: 100%!important;
+	float: none!important;
+	padding-bottom:15px;
+	margin-top:15px;
+	clear:none!important;
+}
+
+.row-fluid .row-fluid{
+	margin-top:-15px!important;
+}
+
+.sticky-wrapper{
+	height:auto!important;
+}
+
+.row-fluid.columns-4 > [class*="span"],
+.row-fluid > [class*="span3"],
+.row-fluid > [class*="spanone_fifth"] ,
+.row-fluid.columns-5 > [class*="span"] {
+	width: 50%!important;
+	float: left!important;
+	padding-bottom:15px;
+	margin-top:15px;
+}
+
+.row-fluid.columns-4 > [class*="span"]:nth-child(2n+1),
+.row-fluid > [class*="span3"]:nth-child(2n+1),
+.row-fluid > [class*="spanone_fifth"]:nth-child(2n+1) ,
+.row-fluid.columns-5 > [class*="span"]:nth-child(2n+1){
+	clear:both!important;
+}
+
+.row-fluid.columns-6 > [class*="span"],
+.row-fluid > [class*="span2"]
+{
+	width:33.3333%!important;
+	float:left!important;
+}
+
+.row-fluid.columns-6 > [class*="span"]:nth-child(3n+1),
+.row-fluid > [class*="span2"]:nth-child(3n+1){
+	clear:both!important;
+}
+
+.row-fluid.style2  > [class*="span"],
+.row-fluid.style3  > [class*="span"]{
+	margin-top:0!important;
+}
+
+.row-fluid.style2 >  [class*="span"] .inner-content{
+	padding-bottom:0!important;
+}
+
+.columns-text br{
+	display:none;
+}
+
+
+
+.row-fluid.style2 .span6:after,
+.row-fluid.style2 .span4:before,
+.row-fluid.style2 .span4:after,
+.row-fluid.style2 .span6:before,
+.row-fluid.columns-3.style2 [class*="span"]:after,
+.row-fluid.columns-3.style2 [class*="span"]:before,
+.row-fluid.columns-2.style2 [class*="span"]:after,
+.row-fluid.columns-2.style2 [class*="span"]:before {
+	display: none!important
+}
+
+
+.general-items .span6,
+.general-items.columns-2 [class*="span"],
+{
+	width:100%;
+	float:none;
+}
+
+.general-items  .span4,
+.general-items .span3,
+.general-items.columns-3 [class*="span"],
+.general-items.columns-4 [class*="span"],
+.general-items .spanone_fifth,
+.general-items.columns-5 [class*="span"]{
+	width:50%;
+}
+
+
+.general-items .span3,
+.general-items.columns-3 [class*="span"]{
+	width:100%;
+	float:none;
+}
+
+
+.section.double-section .section-container{
+	width:100%!important;
+	float:none!important;
+	height:auto!important;
+}
+
+.section.double-section .section-container .row-fluid [class*="span"]{
+	width:50%!important;
+	float:left!important;
+}
+
+.section-with-sidebar .sidebar {
+	padding-top: 0;
+	width: 100%!important;
+	border-left: 0;
+}
+
+
+#titlebar #breadcrumbs {
+	margin-top: 2px
+}
+#titlebar:not(.style2) .titlebar-content > h1,
+#titlebar:not(.style2) #breadcrumbs {
+	width: 100%!important;
+	float:none!important;
+	text-align: left!important;
+}
+
+#titlebar.style2 .titlebar-content > h1,
+#titlebar.style2 .titlebar-content  h5{
+	font-size:32px!important;
+	line-height:1.2!important
+}
+#titlebar.style2 .titlebar-content  h5{
+	font-size:18px!important;
+}
+.full-width-alternate {
+	padding-top: 0!important
+}
+#copyright .textright {
+	text-align: left!important
+}
+
+.section-with-sidebar .content,
+.section-with-sidebar .sidebar {
+	border: none!important
+}
+.search-form-404 {
+	padding-top: 0;
+	margin-top: 0;
+	border-left: 0
+}
+
+.quotes-slider > li blockquote{
+	padding:0;
+}
+
+.section-with-sidebar .sidebar .flickr_widget a,
+.recent-works-items > a {
+	width: 80px!important
+}
+
+h1{
+	font-size:30px;
+	line-height:40px;
+}
+
+
+h2{
+	font-size:24px;
+	line-height:34px;
+}
+
+.footer-menu{
+	float:none;
+	margin-top:0;
+}
+}
+
+
+/* !- (portrait phones) */
+@media screen and (max-width: 500px) {
+	
+h1{
+	font-size:24px!important;
+	line-height:34px!important;
+}
+
+	
+.row-fluid > [class*="span"],
+.row-fluid.columns-4 > [class*="span"],
+.row-fluid > [class*="span3"],
+.row-fluid > [class*="spanone_fifth"] ,
+.row-fluid.columns-5 > [class*="span"] {
+	width: 100%!important;
+	float: none!important;
+}
+
+
+.row-fluid.columns-6 > [class*="span"],
+.row-fluid > [class*="span2"]
+{
+	width:50%!important;
+	float:left!important;
+}
+
+.row-fluid.columns-6 > [class*="span"]:nth-child(3n+1),
+ .row-fluid > [class*="span2"]:nth-child(3n+1){
+	clear:none!important
+}
+
+
+.row-fluid.columns-6 > [class*="span"]:nth-child(2n+1),
+.row-fluid > [class*="span2"]:nth-child(2n+1){
+	clear:both!important;
+}
+
+.general-items > .span4,
+.general-items.columns-3 > [class*="span"],
+.general-items.columns-2 > [class*="span"]{
+	width:100%;
+	float:none;
+}
+
+.general-items.columns-5 > [class*="span"]{
+	width:50%;
+	float:left;
+}
+
+
+.stunning_text .big-title > div > span,
+.stunning_text .big-title.extra-large-text > div > span {
+	min-width: 0
+}
+.testimonial-grid-item .testimonial {
+	padding-left: 0
+}
+.testimonial-grid-item .author-avatar {
+	position: relative;
+	margin-bottom: 20px
+}
+.row-fluid.style2 [class*="span"]:after,
+.row-fluid.style2 [class*="span"]:before {
+	display: none!important
+}
+}
+
+@media screen and (max-width: 960px) {
+.stunning_text .big-title > div > span {
+	line-height: 125%
+}
+/* ignore br so content fit perfectly */
+.stunning_text p br {
+	display: none;
+}
+}
+

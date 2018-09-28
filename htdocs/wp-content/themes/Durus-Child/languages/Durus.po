@@ -1,0 +1,5966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Durus\n"
+"POT-Creation-Date: 2014-03-19 18:16+0530\n"
+"PO-Revision-Date: 2014-03-19 18:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:341
+#: ../ReduxCore/framework.php:1370
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:342
+#: ../ReduxCore/framework.php:1371
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:343
+#: ../ReduxCore/framework.php:1373
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:372
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:373
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../ReduxCore/extensions/customizer/extension_customizer.php:374
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:218
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:144
+msgid "Deactivate License"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:110
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:118
+#: ../ReduxCore/extensions/edd/extension_edd.php:170
+msgid "Not Activated"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:114
+#: ../ReduxCore/extensions/edd/extension_edd.php:173
+msgid "Deactivated"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:116
+#: ../ReduxCore/extensions/edd/extension_edd.php:77
+#: ../ReduxCore/extensions/edd/extension_edd.php:119
+#: ../ReduxCore/extensions/edd/extension_edd.php:176
+msgid "Valid"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:124
+msgid "Verifying license..."
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:125
+msgid "Status"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:134
+msgid "Verify License"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/edd_license/field_edd_license.php:139
+msgid "Activate License"
+msgstr ""
+
+#: ../ReduxCore/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: ../ReduxCore/framework.php:126 ../ReduxCore/framework.php:132
+#: ../ReduxCore/framework.php:305 ../ReduxCore/framework.php:308
+#: ../page-builder/js_composer/config/map.php:4193
+msgid "Options"
+msgstr ""
+
+#: ../ReduxCore/framework.php:302
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ../ReduxCore/framework.php:302
+msgid "Redux Framework"
+msgstr ""
+
+#: ../ReduxCore/framework.php:1047 ../ReduxCore/framework.php:1048
+#: ../ReduxCore/framework.php:2347
+msgid "Import / Export"
+msgstr ""
+
+#: ../ReduxCore/framework.php:1059 ../ReduxCore/framework.php:1060
+#: ../ReduxCore/framework.php:2363 ../ReduxCore/framework.php:2478
+msgid "Options Object"
+msgstr ""
+
+#: ../ReduxCore/framework.php:1071 ../ReduxCore/framework.php:1072
+#: ../ReduxCore/framework.php:2377 ../ReduxCore/framework.php:2496
+msgid "System Info"
+msgstr ""
+
+#: ../ReduxCore/framework.php:1372
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../ReduxCore/framework.php:1648 ../brad-shortcodes/tinymce/config.php:1069
+#: ../brad-shortcodes/tinymce/config.php:1124
+#: ../page-builder/js_composer/config/map.php:11
+#: ../page-builder/js_composer/config/map.php:74
+#: ../page-builder/js_composer/config/map.php:472
+#: ../page-builder/js_composer/config/map.php:850
+#: ../page-builder/js_composer/config/map.php:877
+#: ../page-builder/js_composer/config/map.php:1369
+#: ../page-builder/js_composer/config/map.php:1942
+#: ../page-builder/js_composer/config/map.php:3845
+#: ../page-builder/js_composer/config/map.php:4046
+msgid "Default"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2214
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2276
+msgid "Expand"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2278 ../ReduxCore/framework.php:2546
+msgid "Save Changes"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2280 ../ReduxCore/framework.php:2548
+msgid "Reset Section"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2282 ../ReduxCore/framework.php:2550
+msgid "Reset All"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2285 ../ReduxCore/framework.php:2553
+msgid "Working..."
+msgstr ""
+
+#: ../ReduxCore/framework.php:2296
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2302
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2309
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2310
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2311
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2414
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2415
+msgid "Import Options"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2416
+msgid "Import from file"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2416
+msgid "Import from URL"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2425
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../ReduxCore/framework.php:2439
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../ReduxCore/framework.php:2450
+msgid "Import"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2450
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2453
+msgid "Export Options"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2459
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../ReduxCore/framework.php:2464
+msgid "Copy"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2464
+msgid "Download"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2464
+msgid "Copy Link"
+msgstr ""
+
+#: ../ReduxCore/framework.php:2485
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:119
+#: ../ReduxCore/inc/fields/color/field_color.php:72
+#: ../ReduxCore/inc/fields/color_gradient/field_color_gradient.php:81
+#: ../ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: ../options.php:1131 ../page-builder/js_composer/config/map.php:2613
+msgid "Transparent"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:136
+msgid "Background Repeat"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:152
+msgid "Background Clip"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:168
+msgid "Background Origin"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:183
+msgid "Background Size"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:198
+msgid "Background Attachment"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:218
+msgid "Background Position"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:273
+#: ../ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:307
+#: ../ReduxCore/inc/fields/media/field_media.php:150
+#: ../ReduxCore/inc/fields/slides/field_slides.php:121
+#: ../ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Upload"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/background/field_background.php:313
+#: ../ReduxCore/inc/fields/media/field_media.php:156
+#: ../ReduxCore/inc/fields/multi_text/field_multi_text.php:75
+#: ../ReduxCore/inc/fields/multi_text/field_multi_text.php:79
+#: ../ReduxCore/inc/fields/multi_text/field_multi_text.php:82
+#: ../ReduxCore/inc/fields/slides/field_slides.php:128
+#: ../ReduxCore/inc/fields/slides/field_slides.php:192
+#: ../brad-megamenu/edit_custom_walker.php:266
+msgid "Remove"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:112
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:125
+#: ../page-builder/js_composer/composer/lib/shortcodes/portfolio.php:110
+msgid "All"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:125
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:149
+#: ../page-builder/js_composer/config/map.php:1438
+#: ../page-builder/js_composer/config/map.php:1565
+msgid "Top"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:132
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:156
+#: ../page-builder/js_composer/config/map.php:3610
+msgid "Right"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:139
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:163
+#: ../page-builder/js_composer/config/map.php:342
+#: ../page-builder/js_composer/config/map.php:1439
+#: ../page-builder/js_composer/config/map.php:1566
+#: ../page-builder/js_composer/config/map.php:3190
+msgid "Bottom"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:146
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:170
+#: ../page-builder/js_composer/config/map.php:3610
+msgid "Left"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/color_gradient/field_color_gradient.php:73
+msgid "From "
+msgstr ""
+
+#: ../ReduxCore/inc/fields/color_gradient/field_color_gradient.php:84
+msgid "To "
+msgstr ""
+
+#: ../ReduxCore/inc/fields/dimensions/field_dimensions.php:139
+msgid "Width"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/dimensions/field_dimensions.php:155
+msgid "height"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/dimensions/field_dimensions.php:168
+#: ../ReduxCore/inc/fields/dimensions/field_dimensions.php:169
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:181
+#: ../ReduxCore/inc/fields/spacing/field_spacing.php:182
+#: ../page-builder/js_composer/config/map.php:4178
+msgid "Units"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/group/field_group.php:76
+msgid "New"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/group/field_group.php:89
+msgid "New "
+msgstr ""
+
+#: ../ReduxCore/inc/fields/group/field_group.php:138
+#: ../ReduxCore/inc/fields/group/field_group.php:203
+msgid "Delete"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/group/field_group.php:208
+msgid "Add"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/link_color/field_link_color.php:86
+msgid "Regular"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/link_color/field_link_color.php:90
+msgid "Hover"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/link_color/field_link_color.php:94
+msgid "Visited"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/link_color/field_link_color.php:98
+msgid "Active"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/multi_text/field_multi_text.php:65
+msgid "Add More"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/password/field_password.php:55
+msgid "Password"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/password/field_password.php:56
+msgid "Username"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/select/field_select.php:79
+#: ../ReduxCore/inc/fields/select_image/field_select_image.php:59
+msgid "Select an item"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/select/field_select.php:120
+#: ../ReduxCore/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../ReduxCore/inc/fields/slides/field_slides.php:133
+#: ../ReduxCore/inc/fields/slides/field_slides.php:197
+#: ../brad-shortcodes/tinymce/config.php:829
+#: ../page-builder/js_composer/composer/lib/params/vc_link/vc_link.php:6
+#: ../page-builder/js_composer/config/map.php:26
+#: ../page-builder/js_composer/config/map.php:634
+#: ../page-builder/js_composer/config/map.php:1822
+#: ../page-builder/js_composer/config/map.php:1904
+#: ../page-builder/js_composer/config/map.php:3344
+#: ../page-builder/js_composer/config/map.php:3415
+msgid "Title"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/slides/field_slides.php:135
+#: ../ReduxCore/inc/fields/slides/field_slides.php:199
+#: ../brad-megamenu/edit_custom_walker.php:197
+#: ../page-builder/js_composer/config/map.php:1850
+msgid "Description"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/slides/field_slides.php:137
+#: ../ReduxCore/inc/fields/slides/field_slides.php:201
+#: ../brad-megamenu/edit_custom_walker.php:160
+#: ../page-builder/js_composer/composer/lib/params/vc_link/vc_link.php:6
+msgid "URL"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/slides/field_slides.php:168
+#: ../ReduxCore/inc/fields/slides/field_slides.php:231
+msgid "Delete Slide"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/slides/field_slides.php:234
+msgid "Add Slide"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:143
+msgid "Font family"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:166
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:202
+#: ../ReduxCore/inc/fields/typography/field_typography.php:206
+msgid "Font style"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:206
+#: ../brad-shortcodes/tinymce/config.php:578
+#: ../brad-shortcodes/tinymce/config.php:681
+#: ../brad-shortcodes/tinymce/config.php:1068
+#: ../page-builder/js_composer/config/map.php:1808
+#: ../page-builder/js_composer/config/map.php:3774
+#: ../page-builder/js_composer/config/map.php:4044
+msgid "Style"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font subsets"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:233
+msgid "Subsets"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:233
+msgid "Font script"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:251
+#: ../brad-shortcodes/tinymce/config.php:1170
+#: ../page-builder/js_composer/config/map.php:3896
+#: ../page-builder/js_composer/config/map.php:4278
+msgid "Size"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:260
+#: ../ReduxCore/inc/fields/typography/field_typography.php:261
+#: ../brad-shortcodes/tinymce/config.php:866
+#: ../page-builder/js_composer/config/map.php:1960
+msgid "Text Transform"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:263
+msgid "Inherit"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:264
+msgid "Uppercase"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:265
+msgid "Lowercase"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:275
+msgid "Height"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:283
+msgid "Word Spacing"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:291
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:305
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font color"
+msgstr ""
+
+#: ../ReduxCore/inc/fields/typography/field_typography.php:652
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../ReduxCore/inc/tracking.php:59
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../ReduxCore/inc/tracking.php:60
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test with."
+msgstr ""
+
+#: ../ReduxCore/inc/tracking.php:65
+msgid "Allow tracking"
+msgstr ""
+
+#: ../ReduxCore/inc/tracking.php:70
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../ReduxCore/inc/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/not_empty/validation_not_empty.php:15
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../ReduxCore/inc/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: ../brad-megamenu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: ../brad-megamenu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:151
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:167
+msgid "Navigation Label"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:173
+msgid "Title Attribute"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:180
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:185
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:191
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:199
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:210
+#: ../brad-shortcodes/tinymce/config.php:638
+#: ../brad-shortcodes/tinymce/config.php:759
+#: ../brad-shortcodes/tinymce/config.php:1106
+#: ../page-builder/js_composer/config/map.php:1773
+#: ../page-builder/js_composer/config/map.php:2401
+#: ../page-builder/js_composer/config/map.php:3812
+msgid "Icon"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:212
+msgid "Select Icon"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:219 ../options.php:1330
+#: ../page-builder/js_composer/config/map.php:296
+#: ../page-builder/js_composer/config/map.php:301
+#: ../page-builder/js_composer/config/map.php:699
+msgid "Columns"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:233
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:240
+msgid "Hide Title"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:253
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../brad-megamenu/edit_custom_walker.php:267
+#: ../page-builder/js_composer/composer/lib/layouts.php:225
+msgid "Cancel"
+msgstr ""
+
+#: ../brad-shortcodes/shortcodes.php:24 ../brad-shortcodes/shortcodes.php:663
+#: ../brad-shortcodes/tinymce/config.php:1087
+#: ../brad-shortcodes/tinymce/config.php:1088
+#: ../page-builder/js_composer/composer/lib/shortcodes/button.php:32
+#: ../page-builder/js_composer/composer/lib/shortcodes/cta_button.php:21
+#: ../page-builder/js_composer/config/map.php:3790
+#: ../page-builder/js_composer/config/map.php:3794
+#: ../page-builder/js_composer/config/map.php:3943
+msgid "Text on the button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:24
+msgid "Column Type"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:39
+msgid "Column Content"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:44
+msgid "Add Another Column"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:54
+msgid "Video Type"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:65
+#: ../page-builder/js_composer/config/map.php:323
+#: ../page-builder/js_composer/config/map.php:732
+msgid "Autoplay"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:76
+msgid "Video Id"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:90
+#: ../brad-shortcodes/tinymce/config.php:208
+msgid "Pricing Table"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:94
+#: ../brad-shortcodes/tinymce/config.php:212
+msgid "Pricing Table Columns ?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:110
+#: ../brad-shortcodes/tinymce/config.php:228
+msgid "Pricing Column Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:117
+#: ../brad-shortcodes/tinymce/config.php:235
+msgid "Pricing Title Background Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:124
+#: ../brad-shortcodes/tinymce/config.php:242
+msgid "Pricing Title Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:131
+#: ../brad-shortcodes/tinymce/config.php:249
+msgid "Pricing Column Title Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:138
+#: ../brad-shortcodes/tinymce/config.php:256
+msgid "Pricing Amount"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:145
+#: ../brad-shortcodes/tinymce/config.php:263
+msgid "Pricing Amount Top Left Text"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:153
+#: ../brad-shortcodes/tinymce/config.php:271
+msgid "Pricing Amount Bottom Right Text"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:160
+#: ../brad-shortcodes/tinymce/config.php:278
+msgid "Pricing Description"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:161
+#: ../brad-shortcodes/tinymce/config.php:279
+msgid ""
+"A small Description about your price that will be shown at bottom of pricing "
+"columns"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:167
+#: ../brad-shortcodes/tinymce/config.php:285
+msgid "Pricing Button Icon "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:175
+#: ../brad-shortcodes/tinymce/config.php:293
+msgid "Pricing Button Text"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:183
+#: ../brad-shortcodes/tinymce/config.php:301
+msgid "Pricing Button Url"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:192
+#: ../brad-shortcodes/tinymce/config.php:310
+msgid "Pricing Features"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:193
+#: ../brad-shortcodes/tinymce/config.php:311
+msgid ""
+"Enter The  Pricing Features in \"[pricing_feature]Feature 1[/"
+"pricing_feature] \" format."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:198
+#: ../brad-shortcodes/tinymce/config.php:316
+msgid "Add Another Pricing Column"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:327
+msgid "Compare Table"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:331
+msgid "Compare Table Elements ?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:338
+msgid "Compare Table Heading Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:345
+msgid "Heading Background Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:352
+msgid "Heading Text Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:359
+msgid "First Element Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:366
+msgid "First Element Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:373
+msgid "Second Element Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:380
+msgid "Second Element Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:387
+msgid "Third Element Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:394
+msgid "Third Element Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:401
+msgid "Fourth Element Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:408
+msgid "Fourth Element Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:416
+msgid "Fifth Element Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:423
+msgid "Fifth Element Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:430
+msgid "Correct Sign ?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:437
+msgid "InCorrect Sign ?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:444
+msgid "signs Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:458
+msgid "Feature Title"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:467
+msgid ""
+"Is the current feature in included in element 1 ( If yes then this will show "
+"correct Sign otherwise incorrect Sign)"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:468
+msgid "Featured in Element 1"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:476
+msgid "Featured in Element 2"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:484
+msgid "Featured in Element 3"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:492
+msgid "Featured in Element 4"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:500
+msgid "Featured in Element 5"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:505
+msgid "Add Another Feature"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:519
+msgid "Drop Cap Container Style"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:532
+msgid "Drop Cap Container Background or Border Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:543
+msgid "Dropcap Content"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:544
+msgid "Enter the text for this button."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:560
+msgid "Gap Height"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:561
+msgid ""
+"Enter the Gap Height in pixel <b>Note:</b> Do't include \"px\" only numbers"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:573
+msgid "Checklist"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:590
+msgid "List Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:605
+#: ../brad-shortcodes/tinymce/config.php:632
+msgid "List Item Content"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:611
+#: ../brad-shortcodes/tinymce/config.php:644
+msgid "Add Another List Item"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:619
+msgid "Iconlist"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:657
+#: ../brad-shortcodes/tinymce/config.php:1134
+#: ../page-builder/js_composer/config/map.php:3830
+msgid "Icon Size"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:658
+msgid "Select the Icon size."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:671
+#: ../brad-shortcodes/tinymce/config.php:1075
+#: ../page-builder/js_composer/config/map.php:3781
+msgid "Align"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:692
+msgid "icon Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:693
+#: ../brad-shortcodes/tinymce/config.php:700
+msgid "Leave Blank for Default"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:699
+msgid "icon Color on hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:706
+msgid "Icon Boder Color "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:713
+msgid "Icon Border Color opacity"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:721
+#: ../brad-shortcodes/tinymce/config.php:990
+#: ../brad-shortcodes/tinymce/config.php:1158
+msgid "Icon Background Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:728
+msgid "Icon Background Color opacity "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:736
+msgid "Icon Background Color on Hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:743
+msgid "Icon Background Color opacity on hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:751
+msgid "Enable Crease Background ? "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:772
+#: ../page-builder/js_composer/config/map.php:1724
+msgid "Separator"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:776
+#: ../page-builder/js_composer/config/map.php:1732
+msgid "Border Type"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:786
+#: ../page-builder/js_composer/config/map.php:1743
+msgid "Border Style"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:794
+#: ../page-builder/js_composer/config/map.php:1762
+msgid "Separator Align"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:796
+#: ../brad-shortcodes/tinymce/config.php:877
+#: ../brad-shortcodes/tinymce/config.php:1078
+#: ../brad-shortcodes/tinymce/config.php:1114
+#: ../page-builder/js_composer/config/map.php:1766
+#: ../page-builder/js_composer/config/map.php:1982
+#: ../page-builder/js_composer/config/map.php:3823
+msgid "Align Left"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:797
+#: ../brad-shortcodes/tinymce/config.php:878
+#: ../brad-shortcodes/tinymce/config.php:1080
+#: ../page-builder/js_composer/config/map.php:1983
+#: ../page-builder/js_composer/config/map.php:3785
+#: ../page-builder/js_composer/config/map.php:3937
+msgid "Align Center"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:798
+#: ../brad-shortcodes/tinymce/config.php:879
+#: ../brad-shortcodes/tinymce/config.php:1079
+#: ../brad-shortcodes/tinymce/config.php:1115
+#: ../page-builder/js_composer/config/map.php:1767
+#: ../page-builder/js_composer/config/map.php:1984
+#: ../page-builder/js_composer/config/map.php:3824
+msgid "Align Right"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:804
+#: ../page-builder/js_composer/config/map.php:1781
+msgid "Margin Top"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:806
+#: ../page-builder/js_composer/config/map.php:1784
+msgid "Default Top Margin in \"px\""
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:811
+#: ../brad-shortcodes/tinymce/config.php:887
+#: ../page-builder/js_composer/config/map.php:1788
+#: ../page-builder/js_composer/config/map.php:1991
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:813
+#: ../page-builder/js_composer/config/map.php:1791
+msgid "Default Bottom Margin in \"px\""
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:825
+msgid "label"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:836
+#: ../page-builder/js_composer/config/map.php:1912
+msgid "Heading Type"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:852
+#: ../brad-shortcodes/tinymce/config.php:902
+msgid "Heading Style"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:875
+#: ../page-builder/js_composer/config/map.php:1979
+msgid "Heading Align"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:889
+#: ../page-builder/js_composer/config/map.php:1994
+msgid "Default Margin From Bottom in px"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:898
+msgid "Highlighted Text"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:912
+msgid "Highlighted Content"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:929
+#: ../brad-shortcodes/tinymce/config.php:941
+msgid "Tooltip Text"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:948
+msgid "Tooltip Content"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:965
+msgid "Social Icons size"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:966
+msgid "Select the icon size"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:968
+#: ../brad-shortcodes/tinymce/config.php:1136
+#: ../page-builder/js_composer/config/map.php:495
+#: ../page-builder/js_composer/config/map.php:3833
+msgid "Normal"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:969
+msgid "Above Normal"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:976
+#: ../brad-shortcodes/tinymce/config.php:1146
+msgid "Icon Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:977
+#: ../brad-shortcodes/tinymce/config.php:984
+#: ../brad-shortcodes/tinymce/config.php:991
+#: ../brad-shortcodes/tinymce/config.php:998
+#: ../brad-shortcodes/tinymce/config.php:1005
+#: ../brad-shortcodes/tinymce/config.php:1012
+#: ../page-builder/js_composer/config/map.php:3888
+msgid "Leave Blank for default"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:983
+#: ../brad-shortcodes/tinymce/config.php:1152
+msgid "Icon Border Color"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:997
+msgid "Icon Color:hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1004
+msgid "Icon Border Color:hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1011
+msgid "Icon Background Color:hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1025
+msgid "Social Link"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1032
+msgid "Social Icon title "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1040
+msgid "Social Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1046
+msgid "Social Link Target"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1047
+msgid "Select where the Link should open."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1056
+msgid "Add Another Social Icon"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:15
+msgid "Read More Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Grey Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Green Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Sea Green Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Orange Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Red Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Black Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Purple Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Yellow Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Alternate Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1069
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Alternate Transparent Button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1071
+#: ../page-builder/js_composer/config/map.php:3777
+msgid "Select the default style for your button."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1077 ../options.php:790
+#: ../page-builder/js_composer/config/map.php:3530
+#: ../page-builder/js_composer/config/map.php:3555
+#: ../page-builder/js_composer/config/map.php:3610
+msgid "None"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1089
+#: ../page-builder/js_composer/config/map.php:3795
+msgid "Text on the button."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1093
+#: ../page-builder/js_composer/config/map.php:3799
+#: ../page-builder/js_composer/config/map.php:3948
+msgid "URL (Link)"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1095
+#: ../page-builder/js_composer/config/map.php:3801
+msgid "Enter the Button link. Do't forget to include http:// "
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1099
+#: ../page-builder/js_composer/config/map.php:3805
+msgid "Target"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1102
+#: ../page-builder/js_composer/config/map.php:20
+msgid "Same window"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1102
+#: ../page-builder/js_composer/config/map.php:20
+msgid "New window"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1108
+#: ../page-builder/js_composer/config/map.php:3815
+msgid ""
+"Select the icon for your Button. Click an icon to select it and again click "
+"the same icon to deselecct it"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1112
+#: ../page-builder/js_composer/config/map.php:3820
+msgid "Icon Align"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1122
+#: ../page-builder/js_composer/config/map.php:3842
+msgid "Icon Style"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1125
+#: ../page-builder/js_composer/config/map.php:3846
+msgid "With Border"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1126
+msgid "With Dark Background"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1128
+#: ../brad-shortcodes/tinymce/config.php:1139
+msgid "Only Work for read more button"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1137
+#: ../page-builder/js_composer/config/map.php:76
+#: ../page-builder/js_composer/config/map.php:3548
+#: ../page-builder/js_composer/config/map.php:3834
+#: ../page-builder/js_composer/config/map.php:4280
+msgid "Medium"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1147
+msgid "Leave Blank for default color ( Work only for readmore button)"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1153
+msgid "Leave Blank for default border color ( Only work for readmore button )"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1159
+msgid ""
+"Leave Blank for default background color ( Only work for readmore button )"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1164
+msgid "Icon Background Color : hover"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1165
+msgid ""
+"Leave Blank for default background color on hover ( Only work for readmore "
+"button )"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1172
+#: ../page-builder/js_composer/config/map.php:3899
+msgid "Select the Button size."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1187
+#: ../page-builder/js_composer/config/map.php:1273
+#: ../page-builder/js_composer/config/map.php:1488
+#: ../page-builder/js_composer/config/map.php:3591
+msgid "Image"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1189
+#: ../page-builder/js_composer/config/map.php:3594
+msgid "Select image from media library."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1194
+#: ../page-builder/js_composer/config/map.php:48
+#: ../page-builder/js_composer/config/map.php:367
+#: ../page-builder/js_composer/config/map.php:748
+#: ../page-builder/js_composer/config/map.php:2352
+#: ../page-builder/js_composer/config/map.php:3601
+msgid "CSS Animation"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:209
+#: ../page-builder/js_composer/config/map.php:235
+#: ../page-builder/js_composer/config/map.php:333
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:465
+#: ../page-builder/js_composer/config/map.php:742
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:1298
+#: ../page-builder/js_composer/config/map.php:1513
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:2627
+#: ../page-builder/js_composer/config/map.php:2637
+#: ../page-builder/js_composer/config/map.php:2647
+#: ../page-builder/js_composer/config/map.php:2657
+#: ../page-builder/js_composer/config/map.php:2751
+#: ../page-builder/js_composer/config/map.php:2762
+#: ../page-builder/js_composer/config/map.php:2774
+#: ../page-builder/js_composer/config/map.php:3182
+#: ../page-builder/js_composer/config/map.php:3603
+#: ../page-builder/js_composer/config/map.php:4079
+#: ../page-builder/js_composer/config/map.php:4463
+#: ../page-builder/js_composer/config/map.php:4471
+#: ../page-builder/js_composer/config/map.php:4479
+msgid "No"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Left to Right"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Right to Left"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Bottom to top"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Left to Right Big"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Right to Big big"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Bottom to Top Big"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Top to Bottom Big"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Appear from center"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1196
+#: ../page-builder/js_composer/config/map.php:51
+#: ../page-builder/js_composer/config/map.php:370
+#: ../page-builder/js_composer/config/map.php:751
+#: ../page-builder/js_composer/config/map.php:2354
+#: ../page-builder/js_composer/config/map.php:3603
+msgid "Fade In"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1197
+#: ../page-builder/js_composer/config/map.php:52
+#: ../page-builder/js_composer/config/map.php:371
+#: ../page-builder/js_composer/config/map.php:752
+#: ../page-builder/js_composer/config/map.php:2355
+#: ../page-builder/js_composer/config/map.php:3604
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1202
+#: ../page-builder/js_composer/config/map.php:64
+#: ../page-builder/js_composer/config/map.php:377
+#: ../page-builder/js_composer/config/map.php:758
+msgid "CSS Animation Delay"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1203
+#: ../page-builder/js_composer/config/map.php:66
+#: ../page-builder/js_composer/config/map.php:380
+#: ../page-builder/js_composer/config/map.php:761
+msgid "No Delay"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1209
+#: ../page-builder/js_composer/config/map.php:71
+msgid "Image size"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1226
+#: ../page-builder/js_composer/config/map.php:121
+msgid "Custom Image size"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1227
+msgid ""
+"Enter image size in pixels: 200x100 (Width x Height). Leave empty to use "
+"default size. This will not work unless you select the image size to custom"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1234
+#: ../page-builder/js_composer/config/map.php:3618
+msgid "Enable Lightbox Link Icon?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1235
+msgid "If selected there will be  show lightbox Icon on the top of image."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1241
+#: ../page-builder/js_composer/config/map.php:3626
+msgid "Lightbox Icon?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1248
+#: ../page-builder/js_composer/config/map.php:3634
+msgid "Lightbox Link to large image?"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1249
+msgid ""
+"If selected, image will be linked to the bigger image through lightbox. "
+"<b>Note:</b>You must have Enalbed the light box icon above."
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1256
+#: ../page-builder/js_composer/config/map.php:3642
+msgid "Custom Image link for Lightbox"
+msgstr ""
+
+#: ../brad-shortcodes/tinymce/config.php:1257
+msgid ""
+"Enter url if you want this image to have link. You can also enter youtube or "
+"vimeo video link . Video will be shown in lightbox.<b>Note:</b>You must have "
+"Enalbed the light box icon above."
+msgstr ""
+
+#: ../meta-box/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: ../meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../meta-box/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: ../meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: ../meta-box/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../meta-box/inc/fields/post.php:68 ../meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../meta-box/inc/meta-box.php:247
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../meta-box/inc/meta-box.php:421
+msgid "+"
+msgstr ""
+
+#: ../meta-box/inc/meta-box.php:443
+msgid "&#8211;"
+msgstr ""
+
+#: ../metabox.php:24
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../metabox.php:44
+msgid "Video Settings"
+msgstr ""
+
+#: ../metabox.php:404
+msgid "Client Meta"
+msgstr ""
+
+#: ../metabox.php:410
+msgid "Client Link"
+msgstr ""
+
+#: ../metabox.php:412
+msgid "Enter the link for the client if you want the image to be clickable."
+msgstr ""
+
+#: ../metabox.php:418
+msgid "Client Logo"
+msgstr ""
+
+#: ../metabox.php:419
+msgid "Enter the image for the Client (required)."
+msgstr ""
+
+#: ../metabox.php:431
+msgid "Testimonial Info"
+msgstr ""
+
+#: ../metabox.php:436
+msgid "Testimonial Name"
+msgstr ""
+
+#: ../metabox.php:438
+msgid "Enter the cite name for the testimonial."
+msgstr ""
+
+#: ../metabox.php:445
+msgid "Role"
+msgstr ""
+
+#: ../metabox.php:447
+msgid "Enter the role of testimonial for ex. Ceo  , President"
+msgstr ""
+
+#: ../metabox.php:454
+msgid "Testimonial Company"
+msgstr ""
+
+#: ../metabox.php:456
+msgid "Enter the testimonial company (optional)."
+msgstr ""
+
+#: ../metabox.php:463
+msgid "Company Link"
+msgstr ""
+
+#: ../metabox.php:465
+msgid "Enter the Company url or leve blank if do't want to have a link"
+msgstr ""
+
+#: ../metabox.php:472
+msgid "Testimonial  Image"
+msgstr ""
+
+#: ../metabox.php:473
+msgid "Enter the image for the testimonial (optional)."
+msgstr ""
+
+#: ../options.php:63
+msgid "General Settings"
+msgstr ""
+
+#: ../options.php:64
+msgid "<p class=\"description\">Customize the main settings for theme . </p>"
+msgstr ""
+
+#: ../options.php:74
+msgid "Disable Comments for all Content Pages "
+msgstr ""
+
+#: ../options.php:75
+msgid "Check this option to disable comments for all pages "
+msgstr ""
+
+#: ../options.php:100
+msgid "Layout"
+msgstr ""
+
+#: ../options.php:101
+msgid "Select boxed or wide layout."
+msgstr ""
+
+#: ../options.php:112
+msgid "Background Style for Body"
+msgstr ""
+
+#: ../options.php:113
+msgid ""
+"Select a background color (Only work if  Boxed Layout is selected above)."
+msgstr ""
+
+#: ../options.php:119
+msgid "Background Pattern"
+msgstr ""
+
+#: ../options.php:120
+msgid ""
+"Enable Background pattern for boxed layout and then select the pattern below "
+"(Only Boxed Layout) . "
+msgstr ""
+
+#: ../options.php:126
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: ../options.php:132
+msgid "Pattern 1"
+msgstr ""
+
+#: ../options.php:133
+msgid "Pattern 2"
+msgstr ""
+
+#: ../options.php:134
+msgid "Pattern 3"
+msgstr ""
+
+#: ../options.php:135
+msgid "Pattern 4"
+msgstr ""
+
+#: ../options.php:136
+msgid "Pattern 5"
+msgstr ""
+
+#: ../options.php:137
+msgid "Pattern 6"
+msgstr ""
+
+#: ../options.php:138
+msgid "Pattern 7"
+msgstr ""
+
+#: ../options.php:139
+msgid "Pattern 8"
+msgstr ""
+
+#: ../options.php:140
+msgid "Pattern 9"
+msgstr ""
+
+#: ../options.php:141
+msgid "Pattern 10"
+msgstr ""
+
+#: ../options.php:142
+msgid "Pattern 11"
+msgstr ""
+
+#: ../options.php:143
+msgid "Pattern 12"
+msgstr ""
+
+#: ../options.php:144
+msgid "Pattern 13"
+msgstr ""
+
+#: ../options.php:145
+msgid "Pattern 14"
+msgstr ""
+
+#: ../options.php:146
+msgid "Pattern 15"
+msgstr ""
+
+#: ../options.php:149
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:150
+msgid ""
+"Quickly add some CSS to your theme by adding it to this block. Do't Included "
+"( <style type=\"text/css\"></style> ) Code"
+msgstr ""
+
+#: ../options.php:156
+msgid "Tracking Code"
+msgstr ""
+
+#: ../options.php:157
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the  template of your theme."
+msgstr ""
+
+#: ../options.php:168
+msgid "Logo and Favicons"
+msgstr ""
+
+#: ../options.php:172
+msgid "Logo Upload"
+msgstr ""
+
+#: ../options.php:173
+msgid "Upload your Logo"
+msgstr ""
+
+#: ../options.php:180
+msgid "Logo Top Margin"
+msgstr ""
+
+#: ../options.php:181
+msgid "Enter your Top margin value for the Logo in pixels (Default: 31px)"
+msgstr ""
+
+#: ../options.php:186
+msgid "Logo left Margin"
+msgstr ""
+
+#: ../options.php:187
+msgid "Enter your Bottom margin value for the Logo in pixels (Default: 0px)"
+msgstr ""
+
+#: ../options.php:193
+msgid "Logo Upload Retina"
+msgstr ""
+
+#: ../options.php:194
+msgid "Upload your Retina Logo."
+msgstr ""
+
+#: ../options.php:200
+msgid "Original Logo Width"
+msgstr ""
+
+#: ../options.php:201
+msgid "Width of Standard Logo in px "
+msgstr ""
+
+#: ../options.php:206
+msgid "Original Logo Height"
+msgstr ""
+
+#: ../options.php:207
+msgid "Height of Standard Logo in px"
+msgstr ""
+
+#: ../options.php:212
+msgid "Custom Favicon (16x16)"
+msgstr ""
+
+#: ../options.php:213
+msgid ""
+"Upload a 16px x 16px Png/ico image that will represent your website's "
+"favicon - use <a href='http://www.favicon.cc/' target='_blank'>favicon.cc</"
+"a> to make sure it's fully compatible)"
+msgstr ""
+
+#: ../options.php:219
+msgid "Apple iPhone Custom Icon (57x57)"
+msgstr ""
+
+#: ../options.php:220
+msgid "Upload your Apple Touch Icon (57x57px png)"
+msgstr ""
+
+#: ../options.php:226
+msgid "Apple iPhone Custom Retina Icon  (114x114)"
+msgstr ""
+
+#: ../options.php:227
+msgid "Upload your Apple Touch Retina Icon (114x114px png)"
+msgstr ""
+
+#: ../options.php:233
+msgid "Apple iPad Custom Icon (72x72)"
+msgstr ""
+
+#: ../options.php:234 ../options.php:241
+msgid "Upload your Apple Touch Retina Icon (144x144px png)"
+msgstr ""
+
+#: ../options.php:240
+msgid "Apple iPad Custom Retina Icon  (144x144px)"
+msgstr ""
+
+#: ../options.php:252
+msgid "Typography"
+msgstr ""
+
+#: ../options.php:256
+msgid "Custom Font WOFF 1"
+msgstr ""
+
+#: ../options.php:261 ../options.php:293
+msgid "Upload your .woff font file"
+msgstr ""
+
+#: ../options.php:264
+msgid "Custom Font TTF 1"
+msgstr ""
+
+#: ../options.php:269 ../options.php:301
+msgid "Upload your .ttf font file"
+msgstr ""
+
+#: ../options.php:272
+msgid "Custom Font EOT 1"
+msgstr ""
+
+#: ../options.php:277 ../options.php:309
+msgid "Upload your .eot font file"
+msgstr ""
+
+#: ../options.php:280
+msgid "Custom Font SVG 1"
+msgstr ""
+
+#: ../options.php:285 ../options.php:317
+msgid "Upload your .svg font file"
+msgstr ""
+
+#: ../options.php:288
+msgid "Custom Font WOFF 2"
+msgstr ""
+
+#: ../options.php:296
+msgid "Custom Font TTF 2"
+msgstr ""
+
+#: ../options.php:304
+msgid "Custom Font EOT 2"
+msgstr ""
+
+#: ../options.php:312
+msgid "Custom Font SVG 2"
+msgstr ""
+
+#: ../options.php:319
+msgid "Main Body  Font"
+msgstr ""
+
+#: ../options.php:320
+msgid "Specify the Body font properties"
+msgstr ""
+
+#: ../options.php:334
+msgid "H1 - Headline Font"
+msgstr ""
+
+#: ../options.php:335
+msgid "Specify the H1 Headline font properties"
+msgstr ""
+
+#: ../options.php:347
+msgid "H2 - Headline Font"
+msgstr ""
+
+#: ../options.php:348
+msgid "Specify the H2 Headline font properties"
+msgstr ""
+
+#: ../options.php:360
+msgid "H3 - Headline Font"
+msgstr ""
+
+#: ../options.php:361
+msgid "Specify the H3 Headline font properties"
+msgstr ""
+
+#: ../options.php:372
+msgid "H4 - Headline Font"
+msgstr ""
+
+#: ../options.php:373
+msgid "Specify the H4 Headline font properties"
+msgstr ""
+
+#: ../options.php:385
+msgid "H5 - Headline Font"
+msgstr ""
+
+#: ../options.php:386
+msgid "Specify the H5 Headline font properties"
+msgstr ""
+
+#: ../options.php:397
+msgid "H6 - Headline Font"
+msgstr ""
+
+#: ../options.php:398
+msgid "Specify the H6 Headline font properties"
+msgstr ""
+
+#: ../options.php:409
+msgid "Read More Font"
+msgstr ""
+
+#: ../options.php:410
+msgid "Specify the read More Button font"
+msgstr ""
+
+#: ../options.php:422
+msgid "Buttons Font"
+msgstr ""
+
+#: ../options.php:423
+msgid "Specify the Button font"
+msgstr ""
+
+#: ../options.php:436
+msgid "Sidebar Headline Font"
+msgstr ""
+
+#: ../options.php:446
+msgid "Enable Divider for sidebar font"
+msgstr ""
+
+#: ../options.php:458
+msgid "Header Options"
+msgstr ""
+
+#: ../options.php:475
+msgid "Disable Fixed Nav"
+msgstr ""
+
+#: ../options.php:480
+msgid "Disable Shrinking of Nav"
+msgstr ""
+
+#: ../options.php:481
+msgid "disable shrinking of nav during scroll ( If Nav type is fixed)"
+msgstr ""
+
+#: ../options.php:487
+msgid "Enable Divider on hover for Nav menu Items"
+msgstr ""
+
+#: ../options.php:488 ../options.php:540
+msgid "Check to show Topbar (Callus Text & Social Media)"
+msgstr ""
+
+#: ../options.php:503
+msgid "Nav Menu font - first level"
+msgstr ""
+
+#: ../options.php:504
+msgid "Navigation Menu - first Level Font Settings"
+msgstr ""
+
+#: ../options.php:517
+msgid "Nav Menu font Level 2nd & 3rd"
+msgstr ""
+
+#: ../options.php:518
+msgid "Navigation Menu - 2nd & 3rd Level Font Settings"
+msgstr ""
+
+#: ../options.php:531
+msgid "Show Search Form in Header"
+msgstr ""
+
+#: ../options.php:539
+msgid "Show Topbar"
+msgstr ""
+
+#: ../options.php:546
+msgid "Top Bar left content"
+msgstr ""
+
+#: ../options.php:547
+msgid ""
+"Select content type form the list you want to display on left side of topbar"
+msgstr ""
+
+#: ../options.php:560
+msgid "Top Bar Right content"
+msgstr ""
+
+#: ../options.php:561
+msgid ""
+"Select content type form the list you want to display on right side of topbar"
+msgstr ""
+
+#: ../options.php:575
+msgid "Phone Number"
+msgstr ""
+
+#: ../options.php:576
+msgid "Phone number to show in Topbar"
+msgstr ""
+
+#: ../options.php:583
+msgid "Email Id"
+msgstr ""
+
+#: ../options.php:584
+msgid "Email Id or Link to show in Topbar"
+msgstr ""
+
+#: ../options.php:602
+msgid "Title Bar Padding Top (Classic Titlebar)"
+msgstr ""
+
+#: ../options.php:603 ../options.php:610
+msgid "Do't Include px only just numbers"
+msgstr ""
+
+#: ../options.php:608
+msgid "Title Bar Padding Bottom (Classic Titlebar)"
+msgstr ""
+
+#: ../options.php:614
+msgid "Title Bar  Background Style"
+msgstr ""
+
+#: ../options.php:615
+msgid ""
+"Default Titlebar Background Styles For Classic and Modern Titlebar ( You can "
+"also change this in page settings for each page)"
+msgstr ""
+
+#: ../options.php:621
+msgid "Title Bar Border top "
+msgstr ""
+
+#: ../options.php:622
+msgid "Titlebar top Border For Both Versions"
+msgstr ""
+
+#: ../options.php:627
+msgid "Title Bar Container Border bottom "
+msgstr ""
+
+#: ../options.php:628
+msgid "Titlebar Bottom Color For Both Versions"
+msgstr ""
+
+#: ../options.php:633
+msgid "Title Bar Background Overlay Color (Modern Titlebar)"
+msgstr ""
+
+#: ../options.php:638
+msgid "Title Bar Background Overlay opacity (Modern Titlebar)"
+msgstr ""
+
+#: ../options.php:644
+msgid "Title Font (Classic Titlebar)"
+msgstr ""
+
+#: ../options.php:645
+msgid "Titlebar title Font Settings for Classic Titlebar"
+msgstr ""
+
+#: ../options.php:654
+msgid "Title Font (Modern Titlebar)"
+msgstr ""
+
+#: ../options.php:655
+msgid "Titlebar title Font Settings for Modern titlebar"
+msgstr ""
+
+#: ../options.php:675
+msgid "Breadcrumb  Font"
+msgstr ""
+
+#: ../options.php:685
+msgid "Breadcrumb Link Font Color"
+msgstr ""
+
+#: ../options.php:686
+msgid "Default: #666666"
+msgstr ""
+
+#: ../options.php:691
+msgid "Breadcrumb Link Font Color:hover"
+msgstr ""
+
+#: ../options.php:692
+msgid "Default: #444444"
+msgstr ""
+
+#: ../options.php:702
+msgid "Footer Options"
+msgstr ""
+
+#: ../options.php:705
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../options.php:710
+msgid "Footer Font Size (in px)"
+msgstr ""
+
+#: ../options.php:718
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../options.php:723
+msgid "Footer Divider Color"
+msgstr ""
+
+#: ../options.php:726
+msgid "Footer Divider Color Used In various widget places"
+msgstr ""
+
+#: ../options.php:729
+msgid "Footer Border Top"
+msgstr ""
+
+#: ../options.php:734
+msgid "Footer Border Bottom"
+msgstr ""
+
+#: ../options.php:739
+msgid "Enable  Footer widgets"
+msgstr ""
+
+#: ../options.php:740
+msgid "Check to show widgetized Footer."
+msgstr ""
+
+#: ../options.php:747
+msgid "Footer Columns"
+msgstr ""
+
+#: ../options.php:753 ../page-builder/js_composer/config/map.php:3694
+msgid "Two"
+msgstr ""
+
+#: ../options.php:754 ../page-builder/js_composer/config/map.php:3695
+msgid "Three"
+msgstr ""
+
+#: ../options.php:755 ../page-builder/js_composer/config/map.php:3696
+msgid "Four"
+msgstr ""
+
+#: ../options.php:759
+msgid "Footer Widget Headline"
+msgstr ""
+
+#: ../options.php:773
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../options.php:778
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: ../options.php:783
+msgid "Footer Copyright Section right content"
+msgstr ""
+
+#: ../options.php:788
+msgid "Menu"
+msgstr ""
+
+#: ../options.php:789
+msgid "Social Ions"
+msgstr ""
+
+#: ../options.php:794
+msgid "Copyright Background color"
+msgstr ""
+
+#: ../options.php:795
+msgid "Default: #1a1a1a"
+msgstr ""
+
+#: ../options.php:800
+msgid "Copyright Text Color"
+msgstr ""
+
+#: ../options.php:801
+msgid "Default: #777777"
+msgstr ""
+
+#: ../options.php:806
+msgid "Copyright Link Color"
+msgstr ""
+
+#: ../options.php:807
+msgid "Default: #999999"
+msgstr ""
+
+#: ../options.php:812
+msgid "Copyright Link Hover Color"
+msgstr ""
+
+#: ../options.php:813
+msgid "Default: #ffffff"
+msgstr ""
+
+#: ../options.php:818
+msgid "Copyright Text"
+msgstr ""
+
+#: ../options.php:819
+msgid "Enter your Copyright Text (HTML allowed)"
+msgstr ""
+
+#: ../options.php:829
+msgid "Styling"
+msgstr ""
+
+#: ../options.php:832 ../page-builder/js_composer/config/map.php:851
+#: ../page-builder/js_composer/config/map.php:878
+msgid "Primary Color"
+msgstr ""
+
+#: ../options.php:837
+msgid "Link Color"
+msgstr ""
+
+#: ../options.php:842
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../options.php:847
+msgid "Main Body  Font Color"
+msgstr ""
+
+#: ../options.php:852
+msgid "H1 Color"
+msgstr ""
+
+#: ../options.php:857
+msgid "H2 Color"
+msgstr ""
+
+#: ../options.php:862
+msgid "H3 Color"
+msgstr ""
+
+#: ../options.php:867
+msgid "H4 Color"
+msgstr ""
+
+#: ../options.php:872
+msgid "H5 Color"
+msgstr ""
+
+#: ../options.php:877
+msgid "H6 Color"
+msgstr ""
+
+#: ../options.php:882
+msgid "Sidebar Headline color"
+msgstr ""
+
+#: ../options.php:893
+msgid "Topbar Background color"
+msgstr ""
+
+#: ../options.php:898
+msgid "Topbar Border color"
+msgstr ""
+
+#: ../options.php:903
+msgid "Topbar Font color"
+msgstr ""
+
+#: ../options.php:908
+msgid "Topbar Social Links  color"
+msgstr ""
+
+#: ../options.php:913
+msgid "Topbar Social Links Border  color"
+msgstr ""
+
+#: ../options.php:918
+msgid "Topbar Social Links  Border Color : hover"
+msgstr ""
+
+#: ../options.php:923
+msgid "Topbar Contact Info Divider"
+msgstr ""
+
+#: ../options.php:928
+msgid "Topbar Contact info font color"
+msgstr ""
+
+#: ../options.php:936
+msgid "Header Nav Background color"
+msgstr ""
+
+#: ../options.php:943
+msgid "Nav Menu font color - first level"
+msgstr ""
+
+#: ../options.php:948
+msgid " Nav Menu font Color on hover"
+msgstr ""
+
+#: ../options.php:953
+msgid " Nav Active Menu font Color"
+msgstr ""
+
+#: ../options.php:963
+msgid "Nav Dropdown  Background color"
+msgstr ""
+
+#: ../options.php:968
+msgid "Nav Dropdown  Background Opacity"
+msgstr ""
+
+#: ../options.php:979
+msgid "Nav Dropdown Menu font Color"
+msgstr ""
+
+#: ../options.php:984
+msgid "Nav Dropdown MegaMenu Title Color"
+msgstr ""
+
+#: ../options.php:989
+msgid "Nav Dropdown Menu Bottom Border Color"
+msgstr ""
+
+#: ../options.php:996
+msgid "Nav Dropdown Active Menu font Color"
+msgstr ""
+
+#: ../options.php:1001
+msgid "Nav Dropdown Menu font Color : hover"
+msgstr ""
+
+#: ../options.php:1006
+msgid "Nav Dropdown  Menu Background Color : hover"
+msgstr ""
+
+#: ../options.php:1011
+msgid "Header Search and Mobile Menu Toggle Button Color"
+msgstr ""
+
+#: ../options.php:1016
+msgid "Header Search and Mobile Menu Toggle Button Color:hover"
+msgstr ""
+
+#: ../options.php:1026
+msgid "Overlay Background Color"
+msgstr ""
+
+#: ../options.php:1031
+msgid "Overlay Opacity"
+msgstr ""
+
+#: ../options.php:1037
+msgid "Primary Button Background Color"
+msgstr ""
+
+#: ../options.php:1042
+msgid "Primary Button Text color"
+msgstr ""
+
+#: ../options.php:1051
+msgid "Blog settings"
+msgstr ""
+
+#: ../options.php:1054
+msgid "Blog Title"
+msgstr ""
+
+#: ../options.php:1059
+msgid "Blog Type"
+msgstr ""
+
+#: ../options.php:1072
+msgid "Default Blog Layout"
+msgstr ""
+
+#: ../options.php:1073
+msgid "Select the default layout . This will be same for post display page"
+msgstr ""
+
+#: ../options.php:1083
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: ../options.php:1084
+msgid ""
+"Blog Listing Sidebar Position if Blog Layout Selected to Blog With Sidebar"
+msgstr ""
+
+#: ../options.php:1096
+msgid "Grid Blog Columns ?"
+msgstr ""
+
+#: ../options.php:1097
+msgid "If Blog Type selected to Grid Blog"
+msgstr ""
+
+#: ../options.php:1112
+msgid "Blog Pagination"
+msgstr ""
+
+#: ../options.php:1118 ../page-builder/js_composer/config/map.php:2374
+#: ../page-builder/js_composer/config/map.php:2693
+msgid "Standard Pagination"
+msgstr ""
+
+#: ../options.php:1119 ../page-builder/js_composer/config/map.php:2375
+#: ../page-builder/js_composer/config/map.php:2694
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../options.php:1120 ../page-builder/js_composer/config/map.php:2376
+#: ../page-builder/js_composer/config/map.php:2695
+msgid "Load More Button"
+msgstr ""
+
+#: ../options.php:1121 ../page-builder/js_composer/config/map.php:2377
+#: ../page-builder/js_composer/config/map.php:2696
+msgid "No Pagination"
+msgstr ""
+
+#: ../options.php:1127
+msgid "Background Style for Grid Blog ?"
+msgstr ""
+
+#: ../options.php:1129 ../page-builder/js_composer/config/map.php:2611
+msgid "This will help you to match  background color blog item with parent"
+msgstr ""
+
+#: ../options.php:1132
+msgid "Transparent with Stroke"
+msgstr ""
+
+#: ../options.php:1133 ../page-builder/js_composer/config/map.php:2615
+msgid "White"
+msgstr ""
+
+#: ../options.php:1134 ../page-builder/js_composer/config/map.php:288
+#: ../page-builder/js_composer/config/map.php:2616
+msgid "White Smoke"
+msgstr ""
+
+#: ../options.php:1140
+msgid "Enable Automatic Excerpts"
+msgstr ""
+
+#: ../options.php:1141
+msgid ""
+"Check to create automatically excerpt for Standard Blog Type. This options "
+"is not available for except standard blog"
+msgstr ""
+
+#: ../options.php:1149
+msgid "Enable Lightbox Icon on Blog entries"
+msgstr ""
+
+#: ../options.php:1156
+msgid "Enable 'Read More' Button"
+msgstr ""
+
+#: ../options.php:1157
+msgid ""
+"Check to enable 'Read More' button on blog entries if automatic experts are "
+"on"
+msgstr ""
+
+#: ../options.php:1163
+msgid "Blog Excerpt Length"
+msgstr ""
+
+#: ../options.php:1164
+msgid "Default: 40. Used for blog entries page , archives & search results."
+msgstr ""
+
+#: ../options.php:1169
+msgid "Show Categories"
+msgstr ""
+
+#: ../options.php:1170
+msgid "Check to show 'Categories' on blog entries."
+msgstr ""
+
+#: ../options.php:1176
+msgid "Show Author in Blog Entries"
+msgstr ""
+
+#: ../options.php:1177
+msgid "Check to show 'Author' on blog entries."
+msgstr ""
+
+#: ../options.php:1182
+msgid "Show Date"
+msgstr ""
+
+#: ../options.php:1183
+msgid "Check to show 'date' on blog entries."
+msgstr ""
+
+#: ../options.php:1190
+msgid "Text on the load more button"
+msgstr ""
+
+#: ../options.php:1192
+#: ../page-builder/js_composer/composer/lib/shortcodes/portfolio.php:44
+msgid "Load More"
+msgstr ""
+
+#: ../options.php:1193
+msgid "Text on the load More button."
+msgstr ""
+
+#: ../options.php:1197
+msgid "Enable Author Info on Post Detail"
+msgstr ""
+
+#: ../options.php:1198
+msgid "Check to enable Author Info"
+msgstr ""
+
+#: ../options.php:1203
+msgid "Enable Related Posts on Post Detail"
+msgstr ""
+
+#: ../options.php:1204
+msgid "Check to enable Related Posts"
+msgstr ""
+
+#: ../options.php:1211
+msgid "Enable Share-Box on Post Detail"
+msgstr ""
+
+#: ../options.php:1212
+msgid "Check to enable Share-Box"
+msgstr ""
+
+#: ../options.php:1218
+msgid "Enable Google +  in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1219
+msgid "Check to enable Google in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1225
+msgid "Enable Facebook in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1226
+msgid "Check to enable Facebook in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1232
+msgid "Enable Twitter in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1233
+msgid "Check to enable Twitter in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1240
+msgid "Enable LinkedIn in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1241
+msgid "Check to enable LinkedIn in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1247
+msgid "Enable Pinterest in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1248
+msgid "Check to enable Pinterset in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1254
+msgid "Enable Reddit in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1255
+msgid "Check to enable Dribbble in Social Sharing Box"
+msgstr ""
+
+#: ../options.php:1268
+msgid "Portfolio settings"
+msgstr ""
+
+#: ../options.php:1269
+msgid ""
+"<p>Customize the Portfolio permanlinks options and Portfolio Archive Page "
+"Settings</p>"
+msgstr ""
+
+#: ../options.php:1275
+msgid "Custom Slug"
+msgstr ""
+
+#: ../options.php:1276
+msgid ""
+"If you want your portfolio post type to have a custom slug in the url, "
+"please enter it here. <br /><b>Note:</b>After Saving this option , refresh "
+"your permalinks just by going to Settings > Permalinks and clicking save."
+msgstr ""
+
+#: ../options.php:1281
+msgid "Portfolio Layout"
+msgstr ""
+
+#: ../options.php:1288
+msgid "Fullwidth"
+msgstr ""
+
+#: ../options.php:1289
+msgid "With Sidebar"
+msgstr ""
+
+#: ../options.php:1292
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../options.php:1293
+msgid "Sidebar Position if Portfolio Layout Selected to \"With Sidebar\""
+msgstr ""
+
+#: ../options.php:1300
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../options.php:1301
+msgid "sidebar-left"
+msgstr ""
+
+#: ../options.php:1306
+msgid "Default sidebar"
+msgstr ""
+
+#: ../options.php:1307
+msgid ""
+"Select a sidebar if Portfolio Layout Selected to \"With Sidebar\" . You must "
+"first create the sidebar under Appearance > Sidebars."
+msgstr ""
+
+#: ../options.php:1316 ../page-builder/js_composer/config/map.php:2191
+#: ../page-builder/js_composer/config/map.php:2447
+msgid "Portfolio Style"
+msgstr ""
+
+#: ../options.php:1317
+msgid "Default Portfolio Style"
+msgstr ""
+
+#: ../options.php:1323
+msgid "Style 1"
+msgstr ""
+
+#: ../options.php:1324
+msgid "Style 2"
+msgstr ""
+
+#: ../options.php:1325
+msgid "Style 3"
+msgstr ""
+
+#: ../options.php:1331
+msgid "Number of columns to display"
+msgstr ""
+
+#: ../options.php:1337
+msgid "Two columns"
+msgstr ""
+
+#: ../options.php:1338
+msgid "Three Columns"
+msgstr ""
+
+#: ../options.php:1339
+msgid "Four Columns"
+msgstr ""
+
+#: ../options.php:1340
+msgid "Five Columns"
+msgstr ""
+
+#: ../options.php:1343
+msgid "Enable Lightbox Icon"
+msgstr ""
+
+#: ../options.php:1349
+msgid "Enable Link Icon"
+msgstr ""
+
+#: ../options.php:1356
+msgid "Display Categories"
+msgstr ""
+
+#: ../options.php:1369
+msgid "Lightbox"
+msgstr ""
+
+#: ../options.php:1370
+msgid "<p class=\"description\">Customize the Lightbox Settings</p>"
+msgstr ""
+
+#: ../options.php:1372
+msgid "Lightbox Theme"
+msgstr ""
+
+#: ../options.php:1386
+msgid "Disable Lightbox on Smartphone"
+msgstr ""
+
+#: ../options.php:1387
+msgid ""
+"Check this  to disable Lightbox on Smartphones. This will link directly to "
+"the image"
+msgstr ""
+
+#: ../options.php:1392
+msgid "Animation Speed"
+msgstr ""
+
+#: ../options.php:1399 ../page-builder/js_composer/config/map.php:1148
+msgid "Background Opacity"
+msgstr ""
+
+#: ../options.php:1405
+msgid "Show title"
+msgstr ""
+
+#: ../options.php:1406
+msgid "Check to show the title"
+msgstr ""
+
+#: ../options.php:1411
+msgid "Show Gallery Thumbnails"
+msgstr ""
+
+#: ../options.php:1412
+msgid "Check to show gallery thumbnails"
+msgstr ""
+
+#: ../options.php:1417
+msgid "Autoplay Gallery"
+msgstr ""
+
+#: ../options.php:1418
+msgid "Check to autoplay the lightbox gallery"
+msgstr ""
+
+#: ../options.php:1423
+msgid "Autoplay Gallery Speed"
+msgstr ""
+
+#: ../options.php:1424
+msgid ""
+"If autoplay is set to true, select the slideshow speed in ms. (Default: "
+"5000, 1000 ms = 1 second)"
+msgstr ""
+
+#: ../options.php:1429
+msgid "Social Icons"
+msgstr ""
+
+#: ../options.php:1430
+msgid "Check to show social sharing icons"
+msgstr ""
+
+#: ../options.php:1442
+msgid "Social Media"
+msgstr ""
+
+#: ../options.php:1443
+msgid ""
+"<p class=\"description\">Enter your username / URL to show or leave blank to "
+"hide Social Media Icons</p>"
+msgstr ""
+
+#: ../options.php:1445
+msgid "Twitter Username"
+msgstr ""
+
+#: ../options.php:1446
+msgid "Enter your Twitter Username"
+msgstr ""
+
+#: ../options.php:1451
+msgid "Flickr URL"
+msgstr ""
+
+#: ../options.php:1452
+msgid "Enter URL to your Flickr Account"
+msgstr ""
+
+#: ../options.php:1457
+msgid "Facebook URL"
+msgstr ""
+
+#: ../options.php:1458
+msgid "Enter URL to your Facebook Account"
+msgstr ""
+
+#: ../options.php:1463
+msgid "Google+ URL"
+msgstr ""
+
+#: ../options.php:1464
+msgid "Enter URL to your Google+ Account"
+msgstr ""
+
+#: ../options.php:1469
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../options.php:1470
+msgid "Enter URL to your LinkedIn Account"
+msgstr ""
+
+#: ../options.php:1475
+msgid "YouTube URL"
+msgstr ""
+
+#: ../options.php:1476
+msgid "Enter URL to your YouTube Account"
+msgstr ""
+
+#: ../options.php:1481
+msgid "Instagram URL"
+msgstr ""
+
+#: ../options.php:1482
+msgid "Enter URL to your Instagram Account"
+msgstr ""
+
+#: ../options.php:1487
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../options.php:1488
+msgid "Enter URL to your Vimeo Account"
+msgstr ""
+
+#: ../options.php:1493
+msgid "Skype URL"
+msgstr ""
+
+#: ../options.php:1494
+msgid "Enter URL to your Skype Account"
+msgstr ""
+
+#: ../options.php:1499
+msgid "Forrst URL"
+msgstr ""
+
+#: ../options.php:1500
+msgid "Enter URL to your Forrst Account"
+msgstr ""
+
+#: ../options.php:1505
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../options.php:1506
+msgid "Enter URL to your Dribbble Account"
+msgstr ""
+
+#: ../options.php:1533
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../options.php:1534
+msgid "Enter URL to your Tumblr Account"
+msgstr ""
+
+#: ../options.php:1541
+msgid "Behance URL"
+msgstr ""
+
+#: ../options.php:1542
+msgid "Enter URL to your Behance Account"
+msgstr ""
+
+#: ../options.php:1547
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../options.php:1548
+msgid "Enter URL to your Pinterest Account"
+msgstr ""
+
+#: ../options.php:1553
+msgid "PayPal URL"
+msgstr ""
+
+#: ../options.php:1554
+msgid "Enter URL to your PayPal Account"
+msgstr ""
+
+#: ../options.php:1559
+msgid "Delicious URL"
+msgstr ""
+
+#: ../options.php:1560
+msgid "Enter URL to your Delicious Account"
+msgstr ""
+
+#: ../options.php:1565
+msgid "Show RSS"
+msgstr ""
+
+#: ../options.php:1566
+msgid "Check to Show RSS Icon"
+msgstr ""
+
+#: ../options.php:1577
+msgid "Theme Update"
+msgstr ""
+
+#: ../options.php:1578
+msgid ""
+"<p class=\"description\">Enter your username / Api to get theme update "
+"notifications</p>"
+msgstr ""
+
+#: ../options.php:1620 ../options.php:1621
+msgid "Durus Options"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:203
+msgid "Add/remove picture"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:204
+msgid "Finish Adding Images"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:205
+msgid "Add Image"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:206
+msgid "Add Images"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:207
+#: ../page-builder/js_composer/composer/build.php:259
+msgid "Brad page builder"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:208
+msgid "Classic editor"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:209
+msgid "Please enter templates name"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:210
+msgid ""
+"Confirm deleting \"{template_name}\" template, press Cancel to leave. This "
+"action cannot be undone."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:211
+msgid "Press OK to delete this element, Cancel to leave"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:212
+msgid "At least One Element is Required"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:213
+msgid "Drag and drop me in the column"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:214
+msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:215
+#: ../page-builder/js_composer/composer/lib/shortcodes/tour.php:4
+msgid "Slide"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:216
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:6
+#: ../page-builder/js_composer/config/map.php:3335
+msgid "Tab"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:217
+#: ../page-builder/js_composer/composer/build.php:220
+#: ../page-builder/js_composer/composer/lib/shortcodes/accordion.php:152
+#: ../page-builder/js_composer/config/map.php:1217
+msgid "Section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:218
+msgid "Please enter new tab title"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:219
+msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:221
+msgid "Please enter new section title"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:222
+msgid "Error. Please try again."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:223
+msgid ""
+"If you close this window all shortcode settings will be lost. Close this "
+"window?"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:224
+msgid "Select element type"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:225
+msgid "Media gallery"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:226
+msgid "Element settings"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:227
+msgid "Add tab"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:228
+msgid "Are you sure you want to convert to new version?"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:229
+#: ../page-builder/js_composer/composer/lib/layouts.php:220
+msgid "Loading..."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:231
+msgid "Set Image"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:232
+msgid "Are you sure taht you want to remove all your data?"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:233
+msgid "Loop settings"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:234
+msgid "Enter custom layout for your row:"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/build.php:235
+msgid "Wrong row layout format! Example: 1/2 + 1/2 or span6 + span6."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/helpers.php:242
+msgid "Added"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/helpers_api.php:4
+msgid "Wrong wpb_map object. Base attribute is required"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:14
+msgid "Wrong layout params"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:95
+msgid "Save current page as a Template"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:96
+msgid "Load Template"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:109
+msgid "No custom templates yet."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:165
+msgid "Show all"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:180
+msgid "Other"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:192
+msgid "Select Content Element"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:193
+msgid "Search by element name"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:208
+msgid "Close"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:224
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:420
+msgid "Save"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:263
+msgid "Update"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:277
+msgid "Add element"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:285
+msgid "Add Section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:292
+msgid "Add Double Section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:300
+msgid "Templates"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:342
+msgid ""
+"Your page layout was created with previous Visual Composer version. Before "
+"converting your layout to the new version"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:344
+msgid "Convert to new version"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:350
+#: ../page-builder/js_composer/composer/lib/layouts.php:387
+msgid "Loading, please wait..."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:355
+msgid "No content yet! You should add some..."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:359
+msgid ""
+"This is a visual preview of your page. Currently, you don't have any content "
+"elements. Click or drag the button <a href='#' class='add-element-to-"
+"layout'><i class='icon'></i> Add element</a> on the top to add content "
+"elements on your page. Alternatively add <a href='#' class='add-text-block-"
+"to-content' parent-container='#visual_composer_content'><i class='icon'></i> "
+"Text block</a> with single click."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:364
+msgid ""
+"Click the pencil icon on the content elements to change their properties."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/layouts.php:388
+msgid "Crunching..."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/mapper.php:33
+#: ../page-builder/js_composer/composer/lib/mapper.php:133
+#: ../page-builder/js_composer/composer/lib/mapper.php:145
+#: ../page-builder/js_composer/composer/lib/mapper.php:169
+#: ../page-builder/js_composer/composer/lib/mapper.php:209
+#, php-format
+msgid "Wrong name for shortcode:%s. Name required"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/mapper.php:35
+#, php-format
+msgid "Wrong base for shortcode:%s. Base required"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/mapper.php:147
+#: ../page-builder/js_composer/composer/lib/mapper.php:171
+#, php-format
+msgid "Wrong attribute for '%s' shortcode. Attribute 'param_name' required"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/mapper.php:211
+#, php-format
+msgid "Wrong setting_name for shortcode:%s. Base can't be modified."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/params/options/options.php:5
+msgid "Manage options"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/params/vc_link/vc_link.php:6
+msgid "Select URL"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:291
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:292
+#, php-format
+msgid "Clone %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:292
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:406
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:617
+msgid "Edit"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:474
+msgid ""
+"Field type is changed from `textarea_html` to `textarea`, because it is "
+"already used by `"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:535
+#: ../page-builder/js_composer/composer/lib/shortcodes/image_gallery.php:28
+msgid "Add images"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes.php:550
+#: ../page-builder/js_composer/composer/lib/shortcodes/single_image.php:22
+msgid "Add image"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/blog_list.php:44
+msgid "No Comment"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/blog_list.php:46
+msgid " Comments"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/blog_list.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/blog_list.php:108
+msgid "th"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/box.php:8
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:19
+#: ../page-builder/js_composer/composer/lib/shortcodes/section.php:19
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:25
+#, php-format
+msgid "Append to this %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/box.php:9
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:20
+#: ../page-builder/js_composer/composer/lib/shortcodes/section.php:20
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:26
+#, php-format
+msgid "Prepend to this %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/box.php:12
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:23
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:29
+#, php-format
+msgid "Edit this %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/box.php:13
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:30
+#, php-format
+msgid "Clone this %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/box.php:15
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:32
+#, php-format
+msgid "Delete this %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:171
+#: ../page-builder/js_composer/config/map.php:1109
+msgid "Column"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:183
+#: ../page-builder/js_composer/config/map.php:239
+#: ../page-builder/js_composer/config/map.php:392
+#: ../page-builder/js_composer/config/map.php:595
+#: ../page-builder/js_composer/config/map.php:766
+#: ../page-builder/js_composer/config/map.php:818
+#: ../page-builder/js_composer/config/map.php:1097
+#: ../page-builder/js_composer/config/map.php:1116
+#: ../page-builder/js_composer/config/map.php:1204
+#: ../page-builder/js_composer/config/map.php:1446
+#: ../page-builder/js_composer/config/map.php:1572
+#: ../page-builder/js_composer/config/map.php:1682
+#: ../page-builder/js_composer/config/map.php:1714
+#: ../page-builder/js_composer/config/map.php:2410
+#: ../page-builder/js_composer/config/map.php:2704
+#: ../page-builder/js_composer/config/map.php:2899
+#: ../page-builder/js_composer/config/map.php:2935
+#: ../page-builder/js_composer/config/map.php:3222
+#: ../page-builder/js_composer/config/map.php:3314
+#: ../page-builder/js_composer/config/map.php:3384
+#: ../page-builder/js_composer/config/map.php:3430
+#: ../page-builder/js_composer/config/map.php:3490
+#: ../page-builder/js_composer/config/map.php:3650
+#: ../page-builder/js_composer/config/map.php:3754
+#: ../page-builder/js_composer/config/map.php:4024
+#: ../page-builder/js_composer/config/map.php:4110
+#: ../page-builder/js_composer/config/map.php:4199
+#: ../page-builder/js_composer/config/map.php:4285
+#: ../page-builder/js_composer/config/map.php:4379
+#: ../page-builder/js_composer/config/map.php:4426
+msgid "Extra class name"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/column.php:186
+#: ../page-builder/js_composer/config/map.php:241
+#: ../page-builder/js_composer/config/map.php:394
+#: ../page-builder/js_composer/config/map.php:597
+#: ../page-builder/js_composer/config/map.php:768
+#: ../page-builder/js_composer/config/map.php:820
+#: ../page-builder/js_composer/config/map.php:1099
+#: ../page-builder/js_composer/config/map.php:1118
+#: ../page-builder/js_composer/config/map.php:1206
+#: ../page-builder/js_composer/config/map.php:1448
+#: ../page-builder/js_composer/config/map.php:1574
+#: ../page-builder/js_composer/config/map.php:1684
+#: ../page-builder/js_composer/config/map.php:1716
+#: ../page-builder/js_composer/config/map.php:2412
+#: ../page-builder/js_composer/config/map.php:2706
+#: ../page-builder/js_composer/config/map.php:2901
+#: ../page-builder/js_composer/config/map.php:2937
+#: ../page-builder/js_composer/config/map.php:3224
+#: ../page-builder/js_composer/config/map.php:3316
+#: ../page-builder/js_composer/config/map.php:3386
+#: ../page-builder/js_composer/config/map.php:3432
+#: ../page-builder/js_composer/config/map.php:3492
+#: ../page-builder/js_composer/config/map.php:3652
+#: ../page-builder/js_composer/config/map.php:3756
+#: ../page-builder/js_composer/config/map.php:4026
+#: ../page-builder/js_composer/config/map.php:4112
+#: ../page-builder/js_composer/config/map.php:4201
+#: ../page-builder/js_composer/config/map.php:4287
+#: ../page-builder/js_composer/config/map.php:4381
+#: ../page-builder/js_composer/config/map.php:4428
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:20
+msgid "<strong>Success!</strong> Your Message Has been Sent"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:21
+#: ../page-builder/js_composer/config/map.php:2124
+msgid "<strong>Error!</strong> An Error Occured While Sending your Message"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:38
+msgid "Your Name"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:39
+msgid "Your Country"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:40
+msgid "Your City"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:41
+msgid "Your Company"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:42
+msgid "Your Message"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:43
+msgid "Your Website"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:44
+msgid "Your Phone Number"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/contact_form.php:45
+msgid "Your Email"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:13
+msgid "Add New"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:23
+#, php-format
+msgid "Delete these %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:24
+#, php-format
+msgid "Edit these %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:25
+#, php-format
+msgid "Clone these %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/portfolio.php:86
+msgid ""
+"Sorry You cannot create more than 1 infinite scroll or Load More Posts "
+"( Portfolios ) per page . Please change this in page builder "
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/portfolio.php:108
+msgid "Sort Portfolios :"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/posts_carousel.php:122
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/quotes_slider.php:51
+#: ../page-builder/js_composer/composer/lib/shortcodes/single_image.php:58
+#: ../page-builder/js_composer/composer/lib/shortcodes/testimonials.php:101
+msgid "This is image placeholder, edit your page to replace it."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/quotes_slider.php:61
+msgid "-"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/row.php:37
+msgid "Custom layout"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/row.php:38
+msgid "Drag row to reorder"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/row.php:39
+msgid "Delete this row"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/row.php:40
+msgid "Edit this row"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/row.php:41
+msgid "Clone this row"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/section.php:52
+msgid "Delete this section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/section.php:53
+msgid "Edit this Section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/section.php:54
+msgid "Clone this Section"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/social_share.php:37
+msgid "Tweet"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/tabs.php:43
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/testimonials.php:90
+msgid "of"
+msgstr ""
+
+#: ../page-builder/js_composer/composer/lib/shortcodes/toggle_faq.php:13
+msgid "Click to toggle"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:11
+msgid "White Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:11
+msgid "Alternate Light Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:18
+msgid "Regular size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:18
+#: ../page-builder/js_composer/config/map.php:75
+#: ../page-builder/js_composer/config/map.php:495
+#: ../page-builder/js_composer/config/map.php:4280
+msgid "Large"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:18
+#: ../page-builder/js_composer/config/map.php:77
+#: ../page-builder/js_composer/config/map.php:472
+#: ../page-builder/js_composer/config/map.php:1944
+#: ../page-builder/js_composer/config/map.php:3548
+msgid "Small"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:24
+msgid "Order by"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:26
+msgid "Date"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:26
+msgid "ID"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:26
+msgid "Modified"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:26
+msgid "Random"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:26
+msgid "Menu order"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:27
+#, php-format
+msgid "Select how to sort retrieved posts. More at %s."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:32
+msgid "Order"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:34
+msgid "Descending"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:34
+msgid "Ascending"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:35
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:40
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:43
+msgid "Default Bottom Margin in px . Do't Included px just numbers"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:57
+msgid "Hide Under"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:59
+msgid "Dektop"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:59
+msgid "Tablet"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:59
+msgid "Smartphones"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:78
+msgid "Thumbnail"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:79
+msgid "Mini"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:80
+msgid "Custom"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:85
+#: ../page-builder/js_composer/config/map.php:3676
+msgid "Whitespace Between Elements ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:98
+msgid "Box Inner Vertical Padding ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:109
+msgid "Box Inner horizental Padding ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:123
+msgid ""
+"Enter image size in pixels: 200x100 (Width x Height). Leave empty to use "
+"default size."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:130
+msgid "Background Color for box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:138
+msgid "Background Color for box : hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:146
+msgid "Border Color for Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:149
+#: ../page-builder/js_composer/config/map.php:158
+msgid "Border color of box or leave blank for no border"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:155
+msgid "Border Color for Box : hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:164
+#: ../page-builder/js_composer/config/map.php:172
+msgid "Border Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:180
+#: ../page-builder/js_composer/config/map.php:189
+msgid "Opacity for Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:183
+#: ../page-builder/js_composer/config/map.php:192
+msgid "Insert a value between o and 1 , for ex. 0.755"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:198
+msgid "Box Outer Shadow? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:200
+#: ../page-builder/js_composer/config/map.php:209
+#: ../page-builder/js_composer/config/map.php:217
+#: ../page-builder/js_composer/config/map.php:235
+#: ../page-builder/js_composer/config/map.php:325
+#: ../page-builder/js_composer/config/map.php:333
+#: ../page-builder/js_composer/config/map.php:362
+#: ../page-builder/js_composer/config/map.php:451
+#: ../page-builder/js_composer/config/map.php:458
+#: ../page-builder/js_composer/config/map.php:465
+#: ../page-builder/js_composer/config/map.php:569
+#: ../page-builder/js_composer/config/map.php:734
+#: ../page-builder/js_composer/config/map.php:742
+#: ../page-builder/js_composer/config/map.php:1093
+#: ../page-builder/js_composer/config/map.php:1174
+#: ../page-builder/js_composer/config/map.php:1181
+#: ../page-builder/js_composer/config/map.php:1257
+#: ../page-builder/js_composer/config/map.php:1298
+#: ../page-builder/js_composer/config/map.php:1307
+#: ../page-builder/js_composer/config/map.php:1383
+#: ../page-builder/js_composer/config/map.php:1420
+#: ../page-builder/js_composer/config/map.php:1472
+#: ../page-builder/js_composer/config/map.php:1513
+#: ../page-builder/js_composer/config/map.php:1556
+#: ../page-builder/js_composer/config/map.php:1630
+#: ../page-builder/js_composer/config/map.php:1637
+#: ../page-builder/js_composer/config/map.php:2109
+#: ../page-builder/js_composer/config/map.php:2626
+#: ../page-builder/js_composer/config/map.php:2636
+#: ../page-builder/js_composer/config/map.php:2646
+#: ../page-builder/js_composer/config/map.php:2656
+#: ../page-builder/js_composer/config/map.php:2750
+#: ../page-builder/js_composer/config/map.php:2761
+#: ../page-builder/js_composer/config/map.php:2773
+#: ../page-builder/js_composer/config/map.php:2894
+#: ../page-builder/js_composer/config/map.php:3182
+#: ../page-builder/js_composer/config/map.php:3207
+#: ../page-builder/js_composer/config/map.php:3215
+#: ../page-builder/js_composer/config/map.php:3706
+#: ../page-builder/js_composer/config/map.php:3733
+#: ../page-builder/js_composer/config/map.php:4079
+#: ../page-builder/js_composer/config/map.php:4092
+#: ../page-builder/js_composer/config/map.php:4260
+#: ../page-builder/js_composer/config/map.php:4463
+#: ../page-builder/js_composer/config/map.php:4471
+#: ../page-builder/js_composer/config/map.php:4479
+msgid "Yes"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:207
+msgid "Box Container Border Radius ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:215
+msgid "Totally Round the Border Radius? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:224
+#: ../page-builder/js_composer/config/map.php:1082
+msgid "Row"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:229
+#: ../page-builder/js_composer/config/map.php:262
+#: ../page-builder/js_composer/config/map.php:412
+#: ../page-builder/js_composer/config/map.php:616
+#: ../page-builder/js_composer/config/map.php:642
+#: ../page-builder/js_composer/config/map.php:672
+#: ../page-builder/js_composer/config/map.php:785
+#: ../page-builder/js_composer/config/map.php:1136
+#: ../page-builder/js_composer/config/map.php:1223
+#: ../page-builder/js_composer/config/map.php:1466
+#: ../page-builder/js_composer/config/map.php:1593
+#: ../page-builder/js_composer/config/map.php:1608
+#: ../page-builder/js_composer/config/map.php:1703
+#: ../page-builder/js_composer/config/map.php:1728
+#: ../page-builder/js_composer/config/map.php:1804
+#: ../page-builder/js_composer/config/map.php:1873
+#: ../page-builder/js_composer/config/map.php:1899
+#: ../page-builder/js_composer/config/map.php:2010
+#: ../page-builder/js_composer/config/map.php:2168
+#: ../page-builder/js_composer/config/map.php:2429
+#: ../page-builder/js_composer/config/map.php:2571
+#: ../page-builder/js_composer/config/map.php:2726
+#: ../page-builder/js_composer/config/map.php:2820
+#: ../page-builder/js_composer/config/map.php:2873
+#: ../page-builder/js_composer/config/map.php:2918
+#: ../page-builder/js_composer/config/map.php:3176
+#: ../page-builder/js_composer/config/map.php:3296
+#: ../page-builder/js_composer/config/map.php:3365
+#: ../page-builder/js_composer/config/map.php:3444
+#: ../page-builder/js_composer/config/map.php:3586
+#: ../page-builder/js_composer/config/map.php:3663
+#: ../page-builder/js_composer/config/map.php:3770
+#: ../page-builder/js_composer/config/map.php:3913
+#: ../page-builder/js_composer/config/map.php:3927
+#: ../page-builder/js_composer/config/map.php:4040
+#: ../page-builder/js_composer/config/map.php:4165
+#: ../page-builder/js_composer/config/map.php:4214
+#: ../page-builder/js_composer/config/map.php:4319
+#: ../page-builder/js_composer/config/map.php:4361
+#: ../page-builder/js_composer/config/map.php:4408
+#: ../page-builder/js_composer/config/map.php:4449
+msgid "Content"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:233
+#: ../page-builder/js_composer/config/map.php:1091
+msgid "Enable Bottom Margin ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:255
+msgid "Testimonials"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:256
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:267
+msgid "Testimonial Category"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:278
+msgid "Testimonials Count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:286
+msgid "Testimonial Background Scheme"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:288
+#: ../page-builder/js_composer/config/map.php:480
+#: ../page-builder/js_composer/config/map.php:1954
+msgid "Light"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:294
+msgid "Testimonials Appearance"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:296
+#: ../page-builder/js_composer/config/map.php:699
+msgid "Carousel"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:304
+#: ../page-builder/js_composer/config/map.php:419
+#: ../page-builder/js_composer/config/map.php:707
+#: ../page-builder/js_composer/config/map.php:793
+#: ../page-builder/js_composer/config/map.php:2187
+#: ../page-builder/js_composer/config/map.php:2443
+#: ../page-builder/js_composer/config/map.php:2602
+#: ../page-builder/js_composer/config/map.php:2741
+msgid "Set the number of Columns."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:331
+#: ../page-builder/js_composer/config/map.php:740
+msgid "Display Navigation"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:340
+msgid "Navigation Align"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:342
+#: ../page-builder/js_composer/config/map.php:3190
+msgid "Side"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:349
+msgid "Columns Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:352
+#: ../page-builder/js_composer/config/map.php:426
+msgid "Default Style for Feature Box Container."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:360
+msgid "Rounded Image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:378
+#: ../page-builder/js_composer/config/map.php:759
+msgid "Css Animation delay between elements in milseconds"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:385
+#: ../page-builder/js_composer/config/map.php:652
+msgid "Apply Css Animation to ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:387
+msgid "Whole Testimonial Content"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:387
+msgid "Only Testimonial Image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:406
+msgid "Feature Boxes"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:410
+msgid "Add New Feature Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:416
+#: ../page-builder/js_composer/config/map.php:704
+#: ../page-builder/js_composer/config/map.php:790
+#: ../page-builder/js_composer/config/map.php:2180
+#: ../page-builder/js_composer/config/map.php:2440
+#: ../page-builder/js_composer/config/map.php:2599
+#: ../page-builder/js_composer/config/map.php:2738
+msgid "Columns Count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:423
+msgid "Feature Box Container Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:442
+msgid "Feature Box Style "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:449
+msgid "Align Feature Box Content to Center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:456
+msgid "Align Feature Box Icon to Center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:463
+msgid "Show Divider After Title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:470
+msgid "Divider Size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:472
+msgid "Thin"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:472
+msgid "Small Thin"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:478
+#: ../page-builder/js_composer/config/map.php:1949
+msgid "Divider Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:480
+#: ../page-builder/js_composer/config/map.php:1953
+msgid "Dark"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:486
+msgid "Feature Box Icon Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:493
+msgid "Feature Box Icon Size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:495
+msgid "Extra Large"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:500
+msgid "Feature Box Icon Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:501
+#: ../page-builder/js_composer/config/map.php:3854
+#: ../page-builder/js_composer/config/map.php:3863
+msgid "Leave Blank for default color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:508
+msgid "Feature Box Icon Color Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:515
+msgid "Feature Box Icon  Color on hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:516
+#: ../page-builder/js_composer/config/map.php:577
+msgid "Leave Blank for Same"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:524
+msgid "Feature Box Icon Color Opacity on hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:532
+msgid "Feature Box Icon Border Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:533
+#: ../page-builder/js_composer/config/map.php:3871
+msgid "Leave Blank for default border color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:541
+msgid "Feature Box Icon Border Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:549
+msgid "Feature Box Icon Background Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:550
+#: ../page-builder/js_composer/config/map.php:3879
+msgid "Leave Blank for default background color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:558
+msgid "Feature Box Icon Bg Color Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:566
+msgid "Enable Crease Backgound"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:568
+msgid ""
+"Enable this if you want to show a Crease image for Feature Icon (Note : "
+"Crease background will shown on hover for icon style2 and on both states for "
+"icon style3 )"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:576
+msgid "Feature Box Icon Background Color on hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:585
+msgid "Feature Box Icon Bg Color Opacity on hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:610
+msgid "Feature Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:620
+msgid "Feature Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:627
+msgid "Feature Alphabet"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:628
+msgid ""
+"Feature Alphabet text if you want display text inplace of icon. <strong>Note:"
+"</strong>If this field has some value then icon will not be display and also "
+"you should use max 2 or 3 Words."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:636
+msgid "Your Title Here ..."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:644
+msgid "You can put any Content Here..."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:654
+msgid "Whole Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:654
+msgid "Only Icons and Images"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:666
+msgid "Clients"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:670
+msgid "Add New Client"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:676
+msgid "Clients Category"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:680
+msgid "Narrow your output by selecting desired categories"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:688
+msgid "Clients Max Count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:697
+msgid "Clients Appearance"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:714
+msgid "Container Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:717
+msgid "Default Style for Clients  Container"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:779
+msgid "Counters"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:783
+msgid "Add New Counter"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:800
+msgid "Counter Box Container Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:803
+msgid "Default Style for Counter Box Container."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:831
+msgid "Counter"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:840
+msgid "Counter Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:847
+msgid "Counter Icon Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:858
+msgid "Value to Count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:860
+msgid "This value must be an integer"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:867
+msgid "Unit"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:869
+msgid ""
+"You can use any text such as % , cm or any other . Leave Blank if you do not "
+"want to display any unit value"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:874
+msgid "Value Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:885
+msgid "Counter Title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:887
+msgid "Your Title Goes Here..."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:987
+msgid "Person"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:997
+msgid "Person Image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1002
+msgid "Person name"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1008
+msgid "Person Role"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1014
+msgid "Biography"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1016
+msgid "Leave Blank if you do not want to display biography"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1021
+msgid "Social Links"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1027
+msgid "Twitter link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1033
+msgid "Facebook link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1039
+msgid "linkedin link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1045
+msgid "youtube link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1051
+msgid "google link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1057
+msgid "behance link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1063
+msgid "dribbble link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1069
+msgid "pinterest link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1130
+msgid "Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1140
+msgid "Box Background color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1143
+msgid "Leave blank for transparent background"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1151
+msgid "The value should be in betweem 0 and 1 , for ex. 0.755"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1156
+msgid "Box Border color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1159
+msgid "Leave blank for transparent border"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1165
+msgid "Border Width"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1172
+msgid "Enable Top Radius"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1179
+msgid "Enable Bottom Radius"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1186
+msgid "Padding"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1189
+msgid ""
+"Default padding in px . You can put formats like '20px' or '10px 20px 10px' "
+"or any css padding pattern."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1194
+msgid "box Text color Scheme ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1197
+msgid "Default Text"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1198
+msgid "All text to White"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1227
+msgid "Section Type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1239
+#: ../page-builder/js_composer/config/map.php:1613
+msgid "Padding Top"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1242
+#: ../page-builder/js_composer/config/map.php:1616
+msgid "Do't Include px ( in numbers only)"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1247
+#: ../page-builder/js_composer/config/map.php:1621
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1250
+#: ../page-builder/js_composer/config/map.php:1624
+msgid "Do't Include px (in numbers only)"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1255
+#: ../page-builder/js_composer/config/map.php:1470
+msgid "Enable Border"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1264
+#: ../page-builder/js_composer/config/map.php:1479
+#: ../page-builder/js_composer/config/map.php:1646
+msgid "Background color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1271
+#: ../page-builder/js_composer/config/map.php:1486
+msgid "Background Type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1273
+#: ../page-builder/js_composer/config/map.php:1488
+msgid "Video"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1280
+#: ../page-builder/js_composer/config/map.php:1495
+#: ../page-builder/js_composer/config/map.php:1667
+msgid "Background image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1287
+#: ../page-builder/js_composer/config/map.php:1502
+#: ../page-builder/js_composer/config/map.php:1673
+msgid "Background Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1289
+#: ../page-builder/js_composer/config/map.php:1504
+#: ../page-builder/js_composer/config/map.php:1675
+msgid "Stretch"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1289
+#: ../page-builder/js_composer/config/map.php:1504
+#: ../page-builder/js_composer/config/map.php:1675
+msgid "Repeat"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1289
+#: ../page-builder/js_composer/config/map.php:1504
+#: ../page-builder/js_composer/config/map.php:1675
+msgid "No Repeat"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1296
+#: ../page-builder/js_composer/config/map.php:1511
+msgid "Fixed Background"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1305
+msgid "Enable Parallax"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1313
+msgid "Parallax Speed"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1315
+msgid "Default parallax speed in seconds"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1323
+#: ../page-builder/js_composer/config/map.php:1521
+msgid "Fallback image for video"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1332
+#: ../page-builder/js_composer/config/map.php:1530
+msgid "Background Video mp4"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1340
+#: ../page-builder/js_composer/config/map.php:1538
+msgid "Background Video ogg"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1348
+#: ../page-builder/js_composer/config/map.php:1546
+msgid "Background Video WebM"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1356
+msgid "According to Content height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1357
+msgid "According to Video height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1359
+msgid "Section height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1370
+msgid "16:9"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1371
+msgid "4:3"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1373
+msgid "Video Aspect Ratio"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1384
+msgid "Enable Background Overlay"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1390
+msgid "Background Overlay Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1399
+msgid "Background Overlay Color Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1408
+msgid "Background Overlay Dots"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1410
+msgid "No Dots"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1410
+msgid "1x1 px"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1410
+msgid "3x3 px"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1410
+msgid "White 1x1 px"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1410
+msgid "White 3x3 px"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1418
+#: ../page-builder/js_composer/config/map.php:1554
+msgid "Enable Divider Triangle"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1426
+msgid "Divider triangle color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1434
+#: ../page-builder/js_composer/config/map.php:1562
+msgid "Triangle Location"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1460
+msgid "Double Section"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1587
+msgid "Section Container"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1603
+msgid "Double Section Container"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1631
+msgid "Wrap to full width"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1638
+msgid "Remove Horizental Padding or Whitespace"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1656
+msgid "Background color Opacity"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1698
+msgid "Text Block"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1708
+msgid "Text"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1710
+msgid "<p>I am text block. Click edit button to change this text.</p>"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1752
+msgid "Border Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1765
+msgid "Align Center ( Default )"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1801
+msgid "Separator with Text"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1819
+msgid "Main Title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1827
+msgid "Extra Large Title ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1830
+msgid "Enable this if you want a large title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1835
+msgid "First Subtitle"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1842
+msgid "Second Title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1857
+msgid "Description position"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1859
+msgid "Align center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1859
+msgid "Align left"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1859
+msgid "Align right"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1869
+msgid "Gap"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1878
+msgid "Gap height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1881
+msgid "In pixels."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1894
+msgid "Special Heading"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1926
+msgid "Heading Divider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1929
+msgid "No Divider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1930
+msgid "Divider at the bottom"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1931
+msgid "Divider in Center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1932
+msgid "Divider in center with outer box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1938
+msgid "Divider Width"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1943
+msgid "Full"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:1970
+msgid "Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2006
+msgid "Contact Form"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2015
+msgid "Email Address"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2017
+msgid ""
+"Email address where you want to send emails . You must need to fill your "
+"email address in Blandes Options -> General -> Email Address. If the given "
+"field is empty then contact form send all emails to your wordpress admin "
+"email "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2019
+msgid "Default Email Address"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2020
+msgid "Alternate Email Address"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2039
+msgid "Form fields"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2051
+msgid "At least One field  is required to show thw form ."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2057
+msgid "Message textarea height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2060
+msgid "Number of lines."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2067
+msgid "Required fields"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2087
+msgid "Half width Fields"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2090
+msgid "If you want two form fields in a single row"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2106
+msgid "Show fancy icons ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2108
+msgid "Enable this if you want to show fancy icons in different form fields"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2115
+msgid "Success Message"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2117
+msgid "<strong>Success!</strong> Your Message has been Sent"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2122
+msgid "Error Message"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2130
+msgid "Submit button text"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2139
+msgid "Submit Button Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2145
+msgid "Submit button size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2162
+msgid "Portfolio"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2172
+#: ../page-builder/js_composer/config/map.php:2433
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2199
+msgid "Default Style for Portfolio"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2208
+msgid "Optimize For FullWidth ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2211
+msgid ""
+"Check this option if you are placing the portfolio in a section that is "
+"using full width of browser. This will optimize the images and add more "
+"responsive behavior according to browser width"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2217
+#: ../page-builder/js_composer/config/map.php:2456
+msgid "Portfolio Image Size ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2219
+#: ../page-builder/js_composer/config/map.php:2227
+#: ../page-builder/js_composer/config/map.php:2458
+#: ../page-builder/js_composer/config/map.php:2466
+msgid "Custom Image Size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2220
+#: ../page-builder/js_composer/config/map.php:2459
+msgid ""
+"if you choose custom image size the portfolio image width will be still 100% "
+"to fill the container."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2230
+#: ../page-builder/js_composer/config/map.php:2469
+msgid ""
+"Custom image size in width X Height. For ex. 570x400 <strong>note:</"
+"strong>Do't include px or any whitespace."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2237
+#: ../page-builder/js_composer/config/map.php:2476
+msgid "Portfolio Overlay Style ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2248
+msgid "Is Sortable "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2249
+msgid "Check this if you want to show sortable tabs for portfolio"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2257
+msgid "Sortable Tabs Align ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2270
+msgid "Show Sortable Label ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2272
+msgid "check this if you want to have sortable tabs a label"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2318
+#: ../page-builder/js_composer/config/map.php:2643
+#: ../page-builder/js_composer/config/map.php:2758
+msgid "Show Categories ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2320
+msgid "Show categories in portfolio info"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2326
+#: ../page-builder/js_composer/config/map.php:2505
+msgid "Disable Lightbox icon ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2329
+#: ../page-builder/js_composer/config/map.php:2508
+msgid "hide the  lightbox icon used to view large portfolio image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2334
+#: ../page-builder/js_composer/config/map.php:2513
+msgid "Disable Link icon ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2337
+#: ../page-builder/js_composer/config/map.php:2516
+msgid "hide link icon that wil be displaced when mouseover portfolio image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2343
+#: ../page-builder/js_composer/config/map.php:2522
+msgid "Disable Link on Title ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2346
+#: ../page-builder/js_composer/config/map.php:2525
+msgid "disable the portfolio detail page link on title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2354
+msgid "Fall 3D"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2354
+msgid "Fly 3D"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2354
+msgid "Flip"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2360
+#: ../page-builder/js_composer/config/map.php:2531
+msgid "Maximun Number of Portfolio Items to Show"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2372
+#: ../page-builder/js_composer/config/map.php:2691
+msgid "Pagination"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2383
+msgid "Button Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2386
+msgid "Select the default style for your Load More button."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2404
+msgid ""
+"Select the icon for your Button. Click an icon to select it and again click "
+"the same icon to deselect it"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2423
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2450
+msgid "Default Style for Portfolio Carousel"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2489
+msgid "Optimize FullWidth ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2492
+msgid ""
+"Enable this if you want to use fullwidth of your browser . <strong>Note:</"
+"strong> To work this option you must have selected the section type to "
+"fullwidth or fullwidth with padding."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2498
+msgid "Show Categories in Info ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2539
+#: ../page-builder/js_composer/config/map.php:2795
+msgid "Show Navigation Icons ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2548
+msgid "Autoplay Slides ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2550
+#: ../page-builder/js_composer/config/map.php:2789
+msgid "Check this if you want to play the carousel Slides Automatically"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2565
+msgid "Blog"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2575
+msgid "Blog Category"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2586
+msgid "Blog Type ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2589
+msgid "Grid Blog"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2590
+msgid "Standard Blog"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2609
+msgid "Background Style ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2614
+msgid "Transparent With Stroke"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2623
+#: ../page-builder/js_composer/config/map.php:2747
+msgid "Show Author Name ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2633
+msgid "Show Date ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2653
+msgid "Enable Lightbox Icon ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2674
+#: ../page-builder/js_composer/config/map.php:2780
+#: ../page-builder/js_composer/config/map.php:2847
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2682
+#: ../page-builder/js_composer/config/map.php:2805
+msgid "Maximun Number of Posts  to Show"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2720
+msgid "Posts Carousel"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2730
+msgid "Posts Category"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2770
+msgid "Show Excerpt ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2787
+#: ../page-builder/js_composer/config/map.php:3205
+msgid "Autoplay ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2816
+msgid "Mini Blog"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2826
+msgid "Categories"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2828
+msgid ""
+"Note: By default, all your posts will be displayed. <br>If you want to "
+"narrow output, select category(s) above. Only selected categories will be "
+"displayed."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2835
+msgid "Layout Type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2855
+msgid "Maxmium Number of posts to show"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2869
+msgid "Message Box"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2877
+msgid "Message box type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2879
+msgid "Informational"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2879
+msgid "Warning"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2879
+msgid "Success"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2879
+msgid "Error"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2880
+msgid "Select message type."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2886
+msgid "Message Content"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2888
+msgid "I am message box. Click edit button to change this text."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2892
+msgid "Close Icon ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2895
+msgid "Check this if you want to show close button to hide Message Box."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2913
+msgid "Tabs"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2922
+#: ../page-builder/js_composer/config/map.php:3301
+#: ../page-builder/js_composer/config/map.php:4365
+#: ../page-builder/js_composer/config/map.php:4412
+msgid "Widget title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2924
+#: ../page-builder/js_composer/config/map.php:3303
+#: ../page-builder/js_composer/config/map.php:4367
+#: ../page-builder/js_composer/config/map.php:4414
+msgid "What text use as a widget title. Leave blank if no title is needed."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2928
+msgid "Auto rotate tabs"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2930
+#: ../page-builder/js_composer/config/map.php:3309
+msgid "Disable"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2931
+msgid "Auto rotate tabs each X seconds."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2948
+msgid "Tab 1"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:2949
+msgid "Tab 2"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3170
+msgid "Quotes Slider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3180
+msgid "Enable Navigation Icons ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3188
+msgid " Navigation Icons Align ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3197
+msgid "slider Effect ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3199
+msgid "Fade"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3199
+msgid "Slide Horizontal"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3199
+msgid "Slide Vertical"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3213
+msgid "Hide Quote Icon on Top ?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3235
+#: ../page-builder/js_composer/config/map.php:3236
+#: ../page-builder/js_composer/config/map.php:3243
+msgid "Quote"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3251
+msgid "Person or Company Logo "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3258
+msgid "Person Name"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3265
+msgid "Person Description"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3271
+msgid "Quote Content"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3273
+msgid "Your Content Goes Here..."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3277
+#: ../page-builder/js_composer/config/map.php:3350
+msgid "Tab ID"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3290
+msgid "Tour Section"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3307
+msgid "Auto rotate slides"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3310
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3327
+msgid "Slide 1"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3328
+msgid "Slide 2"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3346
+msgid "Tab title."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3360
+msgid "Accordion"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3369
+msgid "Active tab"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3372
+msgid ""
+"Enter tab number to be active on load or enter false to collapse all tabs."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3376
+msgid "Accordion Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3394
+msgid "Add accordion section"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3398
+msgid "Section 1"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3399
+msgid "Section 2"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3406
+msgid "Accordion Section"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3417
+msgid "Accordion section title."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3422
+msgid "Accordion Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3424
+#: ../page-builder/js_composer/config/map.php:3468
+msgid "Select an icon for this tab."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3441
+msgid "FAQ"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3448
+msgid "Toggle Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3458
+#: ../page-builder/js_composer/config/map.php:3460
+msgid "Toggle title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3461
+msgid "Toggle block title."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3466
+msgid "Toggle Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3476
+msgid "Toggle content"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3478
+msgid "<p>Toggle content goes here, click edit button to change this text.</p>"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3479
+msgid "Toggle block content."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3483
+msgid "Default state"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3485
+msgid "Closed"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3485
+msgid "Open"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3486
+msgid "Select \"Open\" if you want toggle to be open by default."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3503
+msgid "Facebook Like"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3506
+#: ../page-builder/js_composer/config/map.php:3524
+#: ../page-builder/js_composer/config/map.php:3542
+#: ../page-builder/js_composer/config/map.php:3567
+msgid "Social"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3510
+#: ../page-builder/js_composer/config/map.php:3528
+msgid "Button type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3512
+#: ../page-builder/js_composer/config/map.php:3548
+#: ../page-builder/js_composer/config/map.php:4280
+msgid "Standard"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3512
+msgid "Button count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3512
+msgid "Box count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3513
+#: ../page-builder/js_composer/config/map.php:3531
+msgid "Select button type."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3521
+msgid "Tweetmeme Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3530
+#: ../page-builder/js_composer/config/map.php:3573
+msgid "Horizontal"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3530
+#: ../page-builder/js_composer/config/map.php:3573
+msgid "Vertical"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3539
+msgid "Google+ Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3546
+msgid "Button size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3548
+msgid "Tall"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3549
+msgid "Select button size."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3553
+msgid "Annotation"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3555
+msgid "Inline"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3555
+msgid "Bubble"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3556
+msgid "Select annotation type."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3564
+msgid "Pinterest Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3571
+msgid "Button layout"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3573
+msgid "No count"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3574
+msgid "Select button layout."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3583
+msgid "Single Image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3608
+msgid "Image Align"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3610
+msgid "Center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3620
+msgid "If selected there will be lightbox Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3621
+#: ../page-builder/js_composer/config/map.php:3637
+msgid "Yes, please"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3636
+msgid "If selected, image will be linked to the bigger image through lightbox."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3644
+msgid ""
+"Enter url if you want this image to have link. You can also enter youtube or "
+"vimeo video link . Video will be shown in lightbox."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3660
+msgid "Image Gallery"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3668
+msgid "Gallery type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3670
+msgid "Slider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3670
+msgid "Grid"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3671
+msgid "Select gallery type."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3690
+msgid "Grid Columns ? "
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3693
+msgid "Default (Six)"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3697
+msgid "Five"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3704
+msgid "Auto Play slides"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3715
+msgid "Images"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3718
+msgid "Select images from media library."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3724
+msgid "On click"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3726
+msgid "Open prettyPhoto"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3726
+msgid "Do nothing"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3726
+msgid "Open custom link"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3727
+msgid "What to do when slide is clicked?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3731
+msgid "Hide Overlay and Lightbox Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3739
+msgid "Custom links"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3741
+msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3746
+msgid "Custom link target"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3748
+msgid "Select where to open  custom links."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3767
+msgid "Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3784
+#: ../page-builder/js_composer/config/map.php:3937
+msgid "Justify"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3847
+msgid "With Background"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3853
+msgid "Button  Icon Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3862
+msgid "Button Icon Color Hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3870
+msgid "Button  Icon Border Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3878
+msgid "Button  Icon Background Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3887
+msgid " Button Icon Background and border Color:hover"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3909
+msgid "Call to Action Button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3918
+msgid "Callout Heading"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3921
+msgid "Enter your content."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3935
+msgid "Call text and buttons align"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3941
+msgid "Text on the first button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3944
+msgid "Text on the button or Leave Blank if you do't want to show Button."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3950
+#: ../page-builder/js_composer/config/map.php:3992
+msgid "First button link."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3954
+msgid "First Button Target"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3961
+msgid " First Button Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3964
+#: ../page-builder/js_composer/config/map.php:4006
+msgid "Button color."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3968
+msgid "First Button Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3970
+#: ../page-builder/js_composer/config/map.php:4012
+msgid "Button icon."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3974
+msgid "First Button Size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3977
+#: ../page-builder/js_composer/config/map.php:4019
+msgid "Button size."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3983
+msgid "Text on the second button"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3986
+msgid "Text on the button or Leave Blank if you do't want to show this Button."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3990
+msgid "Second Button URL (Link)"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:3996
+msgid "Second Button Target"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4003
+msgid "Second Button Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4010
+msgid "Second Button Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4016
+msgid "Second Button Size"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4036
+msgid "Google Maps"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4046
+msgid "Fully Saturated"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4046
+msgid "Dark Style"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4046
+msgid "Map Color Match with Primary Color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4051
+msgid "Address"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4057
+msgid "Map Width"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4060
+msgid "Enter map Width . Example: 500px or  50%."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4064
+msgid "Map height"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4067
+msgid "Enter map height in pixels. Example: 200px."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4071
+msgid "Map Zoom"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4073
+msgid "14 - Default"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4077
+msgid "Scrollwheel"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4083
+msgid "Map type"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4085
+msgid "Map"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4085
+msgid "Satellite"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4085
+msgid "Hybrid Map"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4085
+msgid "Map + Terrain"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4086
+msgid "Select map type."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4090
+msgid "Show Marker"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4096
+msgid "Marker Image"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4102
+msgid "Info window Text"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4120
+#: ../page-builder/js_composer/config/map.php:4129
+msgid "Raw HTML"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4123
+#: ../page-builder/js_composer/config/map.php:4143
+msgid "Structure"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4132
+msgid "Enter your HTML content."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4140
+msgid "Raw JS"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4149
+msgid "Raw js"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4152
+msgid "Enter your JS code."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4161
+msgid "Progress Bar"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4170
+msgid "Graphic values"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4172
+msgid ""
+"Input graph values here. Divide values with linebreaks (Enter). Example: 90|"
+"Development"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4180
+msgid ""
+"Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
+"unit will be appended to the graph title."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4185
+#: ../page-builder/js_composer/config/map.php:4271
+msgid "Bar color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4188
+msgid "Select bar background color."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4195
+msgid "Add Stripes?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4195
+msgid "Add animation? Will be visible with striped bars."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4210
+msgid "Pie chart"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4219
+msgid "Pie value"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4221
+msgid "Input graph value here. Witihn a range 0-100."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4227
+msgid "Pie Icon"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4233
+msgid "Pie label value"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4235
+msgid "If you use this field then the Pie icon will not be shown"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4258
+msgid "Place in Center"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4264
+msgid "Track color"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4266
+msgid ""
+"Select pie chart Track color <b>Note:</b> If not selected then default color "
+"will be used."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4273
+msgid ""
+"Select pie chart bar color <b>Note:</b>. If not selected then default color "
+"will be used."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4317
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4323
+msgid "Form title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4326
+msgid "What text use as form title. Leave blank if no title is needed."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4330
+msgid "Select contact form"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4333
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4359
+msgid "Layer Slider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4371
+msgid "LayerSlider ID"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4375
+msgid "Select your LayerSlider."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4406
+#: ../page-builder/js_composer/config/map.php:4418
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4422
+msgid "Select your Revolution Slider."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4435
+msgid "No Gravity forms found."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4439
+msgid "Select a form to display."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4446
+msgid "Gravity Form"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4453
+msgid "Form"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4456
+msgid "Select a form to add it to your post or page."
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4461
+msgid "Display Form Title"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4464
+msgid "Would you like to display the forms title?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4469
+msgid "Display Form Description"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4472
+msgid "Would you like to display the forms description?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4477
+msgid "Enable AJAX?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4480
+msgid "Enable AJAX submission?"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4485
+msgid "Tab Index"
+msgstr ""
+
+#: ../page-builder/js_composer/config/map.php:4487
+msgid ""
+"(Optional) Specify the starting tab index for the fields of this form. Leave "
+"blank if you're not sure what this is."
+msgstr ""

@@ -21,6 +21,7 @@ class WP_Term_Query {
 	 * SQL string used to perform database query.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 * @var string
 	 */
 	public $request;
@@ -29,6 +30,7 @@ class WP_Term_Query {
 	 * Metadata query container.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 * @var object WP_Meta_Query
 	 */
 	public $meta_query = false;
@@ -37,6 +39,7 @@ class WP_Term_Query {
 	 * Metadata query clauses.
 	 *
 	 * @since 4.6.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $meta_query_clauses;
@@ -45,6 +48,7 @@ class WP_Term_Query {
 	 * SQL query clauses.
 	 *
 	 * @since 4.6.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $sql_clauses = array(
@@ -59,6 +63,7 @@ class WP_Term_Query {
 	 * Query vars set by the user.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 * @var array
 	 */
 	public $query_vars;
@@ -67,6 +72,7 @@ class WP_Term_Query {
 	 * Default values for query vars.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 * @var array
 	 */
 	public $query_var_defaults;
@@ -75,6 +81,7 @@ class WP_Term_Query {
 	 * List of terms located by the query.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 * @var array
 	 */
 	public $terms;
@@ -87,7 +94,7 @@ class WP_Term_Query {
 	 * @since 4.6.0
 	 * @since 4.6.0 Introduced 'term_taxonomy_id' parameter.
 	 * @since 4.7.0 Introduced 'object_ids' parameter.
-	 * @since 4.9.0 Added 'slug__in' support for 'orderby'.
+	 * @access public
 	 *
 	 * @param string|array $query {
 	 *     Optional. Array or query string of term query parameters. Default empty.
@@ -97,10 +104,9 @@ class WP_Term_Query {
 	 *     @type int|array    $object_ids             Optional. Object ID, or array of object IDs. Results will be
 	 *                                                limited to terms associated with these objects.
 	 *     @type string       $orderby                Field(s) to order terms by. Accepts term fields ('name',
-	 *                                                'slug', 'term_group', 'term_id', 'id', 'description', 'parent'),
+	 *                                                'slug', 'term_group', 'term_id', 'id', 'description'),
 	 *                                                'count' for term taxonomy count, 'include' to match the
-	 *                                                'order' of the $include param, 'slug__in' to match the
-	 *                                                'order' of the $slug param, 'meta_value', 'meta_value_num',
+	 *                                                'order' of the $include param, 'meta_value', 'meta_value_num',
 	 *                                                the value of `$meta_key`, the array keys of `$meta_query`, or
 	 *                                                'none' to omit the ORDER BY clause. Defaults to 'name'.
 	 *     @type string       $order                  Whether to order terms in ascending or descending order.
@@ -117,9 +123,7 @@ class WP_Term_Query {
 	 *                                                along with all of their descendant terms. If $include is
 	 *                                                non-empty, $exclude_tree is ignored. Default empty array.
 	 *     @type int|string   $number                 Maximum number of terms to return. Accepts ''|0 (all) or any
-	 *                                                positive number. Default ''|0 (all). Note that $number may
-	 *                                                not return accurate results when coupled with $object_ids.
-	 *                                                See #41796 for details.
+	 *                                                positive number. Default ''|0 (all).
 	 *     @type int          $offset                 The number by which to offset the terms query. Default empty.
 	 *     @type string       $fields                 Term fields to query for. Accepts 'all' (returns an array of
 	 *                                                complete term objects), 'all_with_object_id' (returns an
@@ -169,12 +173,9 @@ class WP_Term_Query {
 	 *     @type array        $meta_query             Optional. Meta query clauses to limit retrieved terms by.
 	 *                                                See `WP_Meta_Query`. Default empty.
 	 *     @type string       $meta_key               Limit terms to those matching a specific metadata key.
-	 *                                                Can be used in conjunction with `$meta_value`. Default empty.
+	 *                                                Can be used in conjunction with `$meta_value`.
 	 *     @type string       $meta_value             Limit terms to those matching a specific metadata value.
-	 *                                                Usually used in conjunction with `$meta_key`. Default empty.
-	 *     @type string       $meta_type              Type of object metadata is for (e.g., comment, post, or user).
-	 *                                                Default empty.
-	 *     @type string       $meta_compare           Comparison operator to test the 'meta_value'. Default empty.
+	 *                                                Usually used in conjunction with `$meta_key`.
 	 * }
 	 */
 	public function __construct( $query = '' ) {
@@ -221,6 +222,7 @@ class WP_Term_Query {
 	 * Parse arguments passed to the term query with default query parameters.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string|array $query WP_Term_Query arguments. See WP_Term_Query::__construct()
 	 */
@@ -279,6 +281,7 @@ class WP_Term_Query {
 	 * Sets up the query for retrieving terms.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string|array $query Array or URL query string of parameters.
 	 * @return array|int List of terms, or number of terms when 'count' is passed as a query var.
@@ -291,17 +294,18 @@ class WP_Term_Query {
 	/**
 	 * Get terms, based on query_vars.
 	 *
-	 * @since 4.6.0
+	 * @param 4.6.0
+	 * @access public
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
-	 * @return array List of terms.
+	 * @return array
 	 */
 	public function get_terms() {
 		global $wpdb;
 
 		$this->parse_query( $this->query_vars );
-		$args = &$this->query_vars;
+		$args = $this->query_vars;
 
 		// Set up meta_query so it's available to 'pre_get_terms'.
 		$this->meta_query = new WP_Meta_Query();
@@ -316,7 +320,7 @@ class WP_Term_Query {
 		 */
 		do_action( 'pre_get_terms', $this );
 
-		$taxonomies = (array) $args['taxonomy'];
+		$taxonomies = $args['taxonomy'];
 
 		// Save queries by not crawling the tree in the case of multiple taxes or a flat tax.
 		$has_hierarchical_tax = false;
@@ -422,7 +426,7 @@ class WP_Term_Query {
 			foreach ( $exclude_tree as $extrunk ) {
 				$excluded_children = array_merge(
 					$excluded_children,
-					(array) get_terms( reset( $taxonomies ), array(
+					(array) get_terms( $taxonomies[0], array(
 						'child_of' => intval( $extrunk ),
 						'fields' => 'ids',
 						'hide_empty' => 0
@@ -467,10 +471,7 @@ class WP_Term_Query {
 			$this->sql_clauses['where']['exclusions'] = preg_replace( '/^\s*AND\s*/', '', $exclusions );
 		}
 
-		if (
-			( ! empty( $args['name'] ) ) ||
-			( is_string( $args['name'] ) && 0 !== strlen( $args['name'] ) )
-		) {
+		if ( ! empty( $args['name'] ) ) {
 			$names = (array) $args['name'];
 			foreach ( $names as &$_name ) {
 				// `sanitize_term_field()` returns slashed data.
@@ -480,10 +481,7 @@ class WP_Term_Query {
 			$this->sql_clauses['where']['name'] = "t.name IN ('" . implode( "', '", array_map( 'esc_sql', $names ) ) . "')";
 		}
 
-		if (
-			( ! empty( $args['slug'] ) ) ||
-			( is_string( $args['slug'] ) && 0 !== strlen( $args['slug'] ) )
-		) {
+		if ( ! empty( $args['slug'] ) ) {
 			if ( is_array( $args['slug'] ) ) {
 				$slug = array_map( 'sanitize_title', $args['slug'] );
 				$this->sql_clauses['where']['slug'] = "t.slug IN ('" . implode( "', '", $slug ) . "')";
@@ -815,6 +813,7 @@ class WP_Term_Query {
 	 * Parse and sanitize 'orderby' keys passed to the term query.
 	 *
 	 * @since 4.6.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -834,9 +833,6 @@ class WP_Term_Query {
 		} elseif ( 'include' == $_orderby && ! empty( $this->query_vars['include'] ) ) {
 			$include = implode( ',', wp_parse_id_list( $this->query_vars['include'] ) );
 			$orderby = "FIELD( t.term_id, $include )";
-		} elseif ( 'slug__in' == $_orderby && ! empty( $this->query_vars['slug'] ) && is_array( $this->query_vars['slug'] ) ) {
-			$slugs = implode( "', '", array_map( 'sanitize_title_for_query', $this->query_vars['slug'] ) );
-			$orderby = "FIELD( t.slug, '" . $slugs . "')";
 		} elseif ( 'none' == $_orderby ) {
 			$orderby = '';
 		} elseif ( empty( $_orderby ) || 'id' == $_orderby || 'term_id' === $_orderby ) {
@@ -874,9 +870,10 @@ class WP_Term_Query {
 	 * Generate the ORDER BY clause for an 'orderby' param that is potentially related to a meta query.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string $orderby_raw Raw 'orderby' value passed to WP_Term_Query.
-	 * @return string ORDER BY clause.
+	 * @return string
 	 */
 	protected function parse_orderby_meta( $orderby_raw ) {
 		$orderby = '';
@@ -933,6 +930,7 @@ class WP_Term_Query {
 	 * Parse an 'order' query variable and cast it to ASC or DESC as necessary.
 	 *
 	 * @since 4.6.0
+	 * @access protected
 	 *
 	 * @param string $order The 'order' query variable.
 	 * @return string The sanitized 'order' query variable.
@@ -953,6 +951,7 @@ class WP_Term_Query {
 	 * Used internally to generate a SQL string related to the 'search' parameter.
 	 *
 	 * @since 4.6.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *

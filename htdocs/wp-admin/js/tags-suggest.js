@@ -120,9 +120,7 @@
 			},
 			minLength: 2,
 			position: {
-				my: 'left top+2',
-				at: 'left bottom',
-				collision: 'none'
+				my: 'left top+2'
 			},
 			messages: {
 				noResults: window.uiAutocompleteL10n.noResults,

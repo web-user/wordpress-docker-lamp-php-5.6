@@ -1,0 +1,107 @@
+/*
+ Theme Name: Durus Child
+ Theme URI: http://themeforest.net/user/bradweb/?ref=bradweb
+ Author: bradweb
+ Template: Durus
+ Author URI: http://themeforest.net/user/bradweb
+ Description: Durus Multipurpose Responsive Wordpress Theme
+ Version: 1.0
+ License: GNU General Public License version 3.0
+ License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: Clean  Multipurpose Responsive  Business  Corporate
+*/
+
+@import url("../Durus/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.cform {
+  padding-left: 10px;
+}
+
+.cform.row-fluid .span12 {
+  padding-bottom: 0 !important;
+}
+
+.cform.row-fluid [class*="span"] {
+  padding: 0 10px !important;
+}
+
+.cform.gform_wrapper .top_label .gfield_label {
+  display: none;
+}
+
+.cform.gform_wrapper ul li.gfield {
+  clear: none;
+}
+
+.cform input, .cform textarea {
+  width: 100% !important;
+  padding: 12px 20px !important;
+}
+
+.gform_wrapper .top_label .gfield_error {
+    width: 100% !important;
+}
+
+.gform_wrapper div.validation_error {
+  width: 100% !important;
+}
+
+.cform input[type="submit"] {
+  width: auto !important;
+  margin-left: 10px;
+}
+
+.cform .ginput_container::before {
+  font-family: "SSAir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased!important;
+}
+
+.cform-name .ginput_container input, .cform-email .ginput_container input, .cform-phone .ginput_container input, .cform-klinikk .ginput_container input {
+  padding-left: 45px !important;
+}
+
+.cform-name .ginput_container, .cform-email .ginput_container, .cform-phone .ginput_container, .cform-klinikk .ginput_container {
+  background-color: #fafafa;
+  margin-bottom: 15px;
+}
+
+.cform-name .ginput_container::before, .cform-email .ginput_container::before, .cform-phone .ginput_container::before, .cform-klinikk .ginput_container::before {
+  padding: 12px 15px;
+  position: absolute;
+}
+
+.cform-name .ginput_container::before {
+  content: '👤';
+}
+.cform-email .ginput_container::before {
+  content: '✉';
+}
+.cform-phone .ginput_container::before {
+  content: '📞';
+}
+.cform-klinikk .ginput_container::before {
+  content: "";
+}
+
+@media screen and (max-width: 800px) {
+  .cform.row-fluid [class*="span"] {
+      width: 100%!important;
+  }
+  .cform {
+    padding-left: 5px;
+  }
+}

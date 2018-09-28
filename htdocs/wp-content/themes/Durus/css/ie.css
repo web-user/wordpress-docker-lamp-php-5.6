@@ -1,0 +1,3 @@
+.clients > div a , .clients > li a, .clients-grid a{
+	display:inline!important;
+}

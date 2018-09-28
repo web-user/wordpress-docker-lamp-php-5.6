@@ -1,0 +1,1084 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Durus\n"
+"POT-Creation-Date: 2014-07-23 13:13+0530\n"
+"PO-Revision-Date: 2014-07-23 13:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Error: 404"
+msgstr ""
+
+#: ../404.php:14
+msgid "404 error, couldn't find the content you were looking for."
+msgstr ""
+
+#: ../404.php:22
+msgid "Search Our Website"
+msgstr ""
+
+#: ../404.php:23
+msgid "Use the below form to search what you was looking for:"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:16
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:16
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:16
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Name*"
+msgstr ""
+
+#: ../comments.php:49
+msgid "E-Mail*"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Leave a reply"
+msgstr ""
+
+#: ../comments.php:58
+msgid "Submit comment"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: ../framework/brad-megamenu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: ../framework/brad-megamenu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:151
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:160
+msgid "URL"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:167
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:173
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:180
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:185
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:191
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:197
+msgid "Description"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:199
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:210
+msgid "Icon"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:212
+msgid "Select Icon"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:219
+msgid "Columns"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:233
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:240
+msgid "Hide Title"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:253
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:266
+msgid "Remove"
+msgstr ""
+
+#: ../framework/brad-megamenu/edit_custom_walker.php:267
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/brad-shortcodes/shortcodes.php:29
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/quotes_slider.php:53
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/single_image.php:55
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/testimonials.php:101
+msgid "This is image placeholder, edit your page to replace it."
+msgstr ""
+
+#: ../framework/brad-shortcodes/shortcodes.php:81
+#: ../framework/brad-shortcodes/shortcodes.php:731
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/button.php:32
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/cta_button.php:21
+msgid "Text on the button"
+msgstr ""
+
+#: ../framework/brad_functions.php:564
+msgid "Prev"
+msgstr ""
+
+#: ../framework/brad_functions.php:576
+msgid "Next"
+msgstr ""
+
+#: ../framework/brad_functions.php:617 ../framework/brad_functions.php:620
+msgid "You Are Here:"
+msgstr ""
+
+#: ../framework/brad_functions.php:625
+msgid "Archive by category"
+msgstr ""
+
+#: ../framework/brad_functions.php:629
+msgid "Search results for"
+msgstr ""
+
+#: ../framework/brad_functions.php:701
+msgid "Posts tagged"
+msgstr ""
+
+#: ../framework/brad_functions.php:706
+msgid "Articles posted by"
+msgstr ""
+
+#: ../framework/brad_functions.php:710 ../header.php:221
+msgid "Error 404"
+msgstr ""
+
+#: ../framework/brad_functions.php:715
+msgid "Page"
+msgstr ""
+
+#: ../framework/brad_functions.php:734
+msgid "Name: "
+msgstr ""
+
+#: ../framework/brad_functions.php:735
+msgid "Email: "
+msgstr ""
+
+#: ../framework/brad_functions.php:736
+msgid "Telephone: "
+msgstr ""
+
+#: ../framework/brad_functions.php:737
+msgid "Country: "
+msgstr ""
+
+#: ../framework/brad_functions.php:738
+msgid "City: "
+msgstr ""
+
+#: ../framework/brad_functions.php:739
+msgid "Company: "
+msgstr ""
+
+#: ../framework/brad_functions.php:740
+msgid "Message: "
+msgstr ""
+
+#: ../framework/brad_functions.php:741
+msgid "Website: "
+msgstr ""
+
+#: ../framework/brad_functions.php:1150
+msgid "Says :"
+msgstr ""
+
+#: ../framework/brad_functions.php:1151
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../framework/brad_functions.php:1154
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/brad_functions.php:1159
+msgid "Edit"
+msgstr ""
+
+#: ../framework/brad_functions.php:1160
+msgid "Reply"
+msgstr ""
+
+#: ../framework/brad_woocommerce.php:89
+msgid "Select options"
+msgstr ""
+
+#: ../framework/brad_woocommerce.php:93
+#: ../framework/plugin-activation.php:1951
+#: ../framework/plugin-activation.php:1960
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/custom-posts.php:39
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../framework/custom-posts.php:40
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../framework/custom-posts.php:41
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../framework/custom-posts.php:42
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../framework/custom-posts.php:43
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../framework/custom-posts.php:44
+msgid "No portfolio items have been added yet"
+msgstr ""
+
+#: ../framework/custom-posts.php:45 ../framework/custom-posts.php:224
+#: ../framework/custom-posts.php:292
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../framework/custom-posts.php:73
+msgid "Title"
+msgstr ""
+
+#: ../framework/custom-posts.php:74
+msgid "Thumbnail"
+msgstr ""
+
+#: ../framework/custom-posts.php:75
+msgid "Category"
+msgstr ""
+
+#: ../framework/custom-posts.php:76
+msgid "Author"
+msgstr ""
+
+#: ../framework/custom-posts.php:77
+msgid "Comments"
+msgstr ""
+
+#: ../framework/custom-posts.php:78
+msgid "Date"
+msgstr ""
+
+#: ../framework/custom-posts.php:108 ../framework/custom-posts.php:124
+#: ../framework/custom-posts.php:150 ../framework/custom-posts.php:162
+#: ../framework/custom-posts.php:169 ../framework/custom-posts.php:176
+#: ../framework/custom-posts.php:183
+msgid "None"
+msgstr ""
+
+#: ../framework/custom-posts.php:218
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../framework/custom-posts.php:219
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../framework/custom-posts.php:220
+msgid "New Testimonial"
+msgstr ""
+
+#: ../framework/custom-posts.php:221
+msgid "View Testimonial"
+msgstr ""
+
+#: ../framework/custom-posts.php:222
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../framework/custom-posts.php:223
+msgid "No testimonials have been added yet"
+msgstr ""
+
+#: ../framework/custom-posts.php:248
+msgid "Testimonial"
+msgstr ""
+
+#: ../framework/custom-posts.php:249 ../framework/custom-posts.php:318
+msgid "Categories"
+msgstr ""
+
+#: ../framework/custom-posts.php:286
+msgid "Add New Client"
+msgstr ""
+
+#: ../framework/custom-posts.php:287
+msgid "Edit Client"
+msgstr ""
+
+#: ../framework/custom-posts.php:288
+msgid "New Client"
+msgstr ""
+
+#: ../framework/custom-posts.php:289
+msgid "View Client"
+msgstr ""
+
+#: ../framework/custom-posts.php:290
+msgid "Search Clients"
+msgstr ""
+
+#: ../framework/custom-posts.php:291
+msgid "No clients have been added yet"
+msgstr ""
+
+#: ../framework/custom-posts.php:316
+msgid "Client Logo"
+msgstr ""
+
+#: ../framework/custom-posts.php:317
+msgid "Client"
+msgstr ""
+
+#: ../framework/headers/header-search.php:8
+msgid "Search"
+msgstr ""
+
+#: ../framework/headers/nav-bar.php:7
+msgid "Please assign a menu to the Main Menu in Appearance > Menus"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:5
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:8
+msgid "Dribbble"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:11
+msgid "Flickr"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:14
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:17
+msgid "Skype"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:21
+msgid "Google"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:24
+msgid "LinkedIn"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:27
+msgid "Vimeo"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:31
+msgid "Tumblr"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:34
+msgid "YouTube"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:37
+msgid "Instgram"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:41
+msgid "Behance"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:44
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:47
+msgid "PayPal"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:50
+msgid "Delicious"
+msgstr ""
+
+#: ../framework/headers/social-icons.php:53
+msgid "RSS"
+msgstr ""
+
+#: ../framework/headers/topmenu.php:6
+msgid "Please assign a menu to the Top Menu in Appearance > Menus"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/accordion.php:152
+msgid "Section"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/blog_list.php:44
+msgid "No Comment"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/blog_list.php:46
+msgid " Comments"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/blog_list.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/blog_list.php:108
+msgid "th"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/box.php:8
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:19
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/section.php:19
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:25
+#, php-format
+msgid "Append to this %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/box.php:9
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:20
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/section.php:20
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:26
+#, php-format
+msgid "Prepend to this %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/box.php:12
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:23
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:29
+#, php-format
+msgid "Edit this %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/box.php:13
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:30
+#, php-format
+msgid "Clone this %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/box.php:15
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:32
+#, php-format
+msgid "Delete this %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:171
+msgid "Column"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:183
+msgid "Extra class name"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/column.php:186
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:20
+msgid "<strong>Success!</strong> Your Message Has been Sent"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:21
+msgid "<strong>Error!</strong> An Error Occured While Sending your Message"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:38
+msgid "Your Name"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:39
+msgid "Your Country"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:40
+msgid "Your City"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:41
+msgid "Your Company"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:42
+msgid "Your Message"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:43
+msgid "Your Website"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:44
+msgid "Your Phone Number"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/contact_form.php:45
+msgid "Your Email"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:13
+msgid "Add New"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:23
+#, php-format
+msgid "Delete these %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:24
+#, php-format
+msgid "Edit these %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/feature_boxes.php:25
+#, php-format
+msgid "Clone these %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/image_gallery.php:28
+msgid "Add images"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/portfolio.php:44
+#: ../framework/templates/blog/posts/posts-grid.php:161
+msgid "Load More"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/portfolio.php:87
+msgid ""
+"Sorry You cannot create more than 1 infinite scroll or Load More Posts "
+"( Portfolios ) per page . Please change this in page builder "
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/portfolio.php:109
+msgid "Sort Portfolios :"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/portfolio.php:111
+msgid "All"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/posts_carousel.php:122
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/quotes_slider.php:63
+msgid "-"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/row.php:37
+msgid "Custom layout"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/row.php:38
+msgid "Drag row to reorder"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/row.php:39
+msgid "Delete this row"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/row.php:40
+msgid "Edit this row"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/row.php:41
+msgid "Clone this row"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/section.php:52
+msgid "Delete this section"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/section.php:53
+msgid "Edit this Section"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/section.php:54
+msgid "Clone this Section"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/single_image.php:19
+msgid "Add image"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/social_share.php:37
+msgid "Tweet"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:6
+msgid "Tab"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tabs.php:43
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/testimonials.php:90
+msgid "of"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/toggle_faq.php:13
+msgid "Click to toggle"
+msgstr ""
+
+#: ../framework/page-builder/js_composer/composer/lib/shortcodes/tour.php:4
+msgid "Slide"
+msgstr ""
+
+#: ../framework/plugin-activation.php:155 ../functions.php:141
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation.php:156 ../functions.php:142
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation.php:157 ../functions.php:143
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/plugin-activation.php:169 ../functions.php:155
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/plugin-activation.php:171
+#: ../framework/plugin-activation.php:1841 ../functions.php:156
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../framework/plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1086
+msgid "External Link"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1091
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1094
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1098
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1101
+msgid "Required"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1101
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1104
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1106
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1276
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1292
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1293
+msgid "Source"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1294
+msgid "Type"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1295
+msgid "Status"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1313
+msgid "Install"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1314
+msgid "Activate"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1824
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1825
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1826
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1827
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1828
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1829
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1840
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1950
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1951
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1951
+#: ../framework/plugin-activation.php:1960
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1952
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1953
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation.php:1957
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1958
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1959
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1960
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1961
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation.php:1962
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation.php:2053
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/scripts.php:68
+msgid "No more Posts to Load"
+msgstr ""
+
+#: ../framework/scripts.php:69
+msgid "No more Projects to Load"
+msgstr ""
+
+#: ../framework/templates/blog/postformats/post-link.php:13
+#: ../framework/templates/blog/postformats/post-quote.php:14
+#: ../framework/templates/blog/postformats/post.php:89
+#: ../framework/templates/blog/postformats/post.php:94
+msgid "Read More"
+msgstr ""
+
+#: ../framework/templates/blog/postformats/post-link.php:15
+#: ../framework/templates/blog/postformats/post-quote.php:16
+#: ../framework/templates/blog/postformats/post.php:66
+#: ../framework/templates/singlepost/post-format/post-link.php:12
+#: ../framework/templates/singlepost/post-format/post-quote.php:9
+#: ../framework/templates/singlepost/post-format/post.php:61
+msgid "Posted By:"
+msgstr ""
+
+#: ../framework/templates/blog/postformats/post-link.php:19
+#: ../framework/templates/blog/postformats/post-quote.php:20
+#: ../framework/templates/blog/postformats/post.php:70
+#: ../framework/templates/singlepost/post-format/post-link.php:16
+#: ../framework/templates/singlepost/post-format/post-quote.php:13
+#: ../framework/templates/singlepost/post-format/post.php:65
+msgid "Posted In:"
+msgstr ""
+
+#: ../framework/templates/blog/posts/posts-grid.php:10
+msgid ""
+"Sorry You cannot create more than 1 infinite scroll or Load More Posts "
+"( Portfolios ) per page . Please change this in page builder or blog "
+"settings "
+msgstr ""
+
+#: ../framework/templates/blog/posts/posts-grid.php:113
+msgid "By"
+msgstr ""
+
+#: ../framework/templates/blog/posts/posts-grid.php:161
+msgid "Load More Posts.."
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:65
+#: ../framework/templates/single-portfolio/portfolio.php:62
+msgid "About the Project"
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:72
+#: ../framework/templates/single-portfolio/portfolio.php:72
+msgid "Project Info"
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:75
+#: ../framework/templates/single-portfolio/portfolio.php:76
+msgid "Client :"
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:77
+#: ../framework/templates/single-portfolio/portfolio.php:82
+msgid "Categories :"
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:79
+#: ../framework/templates/single-portfolio/portfolio.php:88
+msgid "Project Url :"
+msgstr ""
+
+#: ../framework/templates/single-portfolio/portfolio-half.php:85
+#: ../framework/templates/single-portfolio/portfolio.php:98
+msgid "Share : "
+msgstr ""
+
+#: ../framework/templates/singlepost/singlepost.php:16
+msgid "Related Posts"
+msgstr ""
+
+#: ../framework/templates/singlepost/singlepost.php:27
+msgid "Share this Story : "
+msgstr ""
+
+#: ../framework/templates/singlepost/singlepost.php:56
+msgid "About the Author"
+msgstr ""
+
+#: ../framework/templates/singlepost/singlepost.php:58
+msgid "The Author has not yet added any info about himself"
+msgstr ""
+
+#: ../framework/theme-update/pixelentity-themes-updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../framework/theme-update/pixelentity-themes-updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../framework/theme-update/pixelentity-themes-updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../framework/theme-update/pixelentity-themes-updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../framework/widgets/embed_video.php:11
+msgid "Display Embed Video"
+msgstr ""
+
+#: ../framework/widgets/embed_video.php:13
+msgid "Brad.Embed_Video"
+msgstr ""
+
+#: ../framework/widgets/flickr_widget.php:9
+msgid "Display your latest Flickr Photos"
+msgstr ""
+
+#: ../framework/widgets/flickr_widget.php:11
+msgid "brad.Flickr"
+msgstr ""
+
+#: ../framework/widgets/flickr_widget.php:56
+msgid "Flickr idGettr"
+msgstr ""
+
+#: ../framework/widgets/recent_posts.php:51
+msgid " at "
+msgstr ""
+
+#: ../framework/widgets/twitter_widget.php:9
+msgid "Display your latest Tweets"
+msgstr ""
+
+#: ../framework/widgets/twitter_widget.php:11
+msgid "Brad.Twitter Widget"
+msgstr ""
+
+#: ../functions.php:144
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:157
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:248
+msgid "These are widgets for the Footer."
+msgstr ""
+
+#: ../header.php:165
+msgid "You are Here:"
+msgstr ""
+
+#: ../header.php:209 ../header.php:211 ../header.php:213 ../header.php:215
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../header.php:217
+msgid "Nothing Found"
+msgstr ""
+
+#: ../header.php:219
+msgid "Search Results"
+msgstr ""
+
+#: ../header.php:223
+msgid "Archives"
+msgstr ""
+
+#: ../search.php:20
+msgid "New Search"
+msgstr ""
+
+#: ../search.php:21
+msgid "To Refine Your Search Change your search text Below"
+msgstr ""
+
+#: ../search.php:34
+msgid "No"
+msgstr ""
+
+#: ../search.php:39
+#, php-format
+msgid "%1$s result found for: <span>%2$s</span></h1>"
+msgstr ""
+
+#: ../search.php:41
+#, php-format
+msgid "%1$s results found for: <span>%2$s</span>"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Type and Hit Enter"
+msgstr ""
+
+#: ../single-portfolio.php:12
+msgid "Related Projects"
+msgstr ""

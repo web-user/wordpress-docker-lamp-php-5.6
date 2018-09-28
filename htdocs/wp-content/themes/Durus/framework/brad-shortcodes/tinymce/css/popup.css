@@ -1,0 +1,258 @@
+/* GLOBAL
+------------------------------------------------------- */
+#brad-popup {
+	width: 800px;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	height: 500px;
+}
+
+
+#brad-popup .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* form side */
+#brad-sc-form-wrap {
+	width: 800px;
+	float: left;
+}
+
+#brad-sc-form-wrap #brad-sc-form {
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 490px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* redesigning thickbox */
+
+.brad-shortcodes-popup {
+	border: 0px !important;
+}
+
+.brad-shortcode-selector {
+	background: #f5f5f5;
+	border-bottom: 1px solid #e8e8e8;
+	box-shadow:0 1px 2px rgba(180,180,180,0.1);
+	padding:20px 35px 20px 25px;
+	width:800px!important
+}
+
+.brad-shortcode-selector .form-row {
+	padding-top: 0 !important; padding-bottom: 0px !important;
+}
+
+/* FORM
+------------------------------------------------------- */
+
+#brad-sc-form-table {
+	width: 730px;
+}
+#brad-sc-form-table tbody tr.form-row {
+	display: block;
+	padding: 20px 0;
+	border-bottom: solid 1px #eaeaea;
+}
+#brad-sc-form-table tbody:last-child tr.form-row {
+	border-bottom: none;
+}
+#brad-sc-form-table tbody tr.form-row .label , .brad-shortcode-selector .label {
+	width: 200px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 35px;
+	padding-right: 20px;
+	font-size:12px;
+	color:#666;
+	font-weight:700;
+}
+#brad-sc-form-table tbody tr.form-row .field {
+	width: 510px;
+}
+
+
+/* child rows, sortable */
+#brad-sc-form-table .has-child #form-child-add {
+	display: block;
+	width: 730px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+#brad-sc-form-table .has-child .child-clone-rows {
+	display: block;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row {
+	padding: 8px 15px;
+	background: #f7f7f7;
+	border: solid 1px #e0e0e0;
+	margin-bottom: 10px;
+	cursor: move;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#brad-sc-form-table .has-child .sortable-placeholder {
+	border: dashed 2px #e0e0e0;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #f7f7f7;
+	height: 40px;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form {
+	display: block;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row {
+	display: block;
+	padding: 7px 0;
+	border-bottom: solid 1px #ddd;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label label {
+	display: block;
+	font-weight: bold;
+	color:#666;
+	padding-bottom: 7px;
+	line-height: 1;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove {
+	color: #FF0000;
+	padding: 1px;
+}
+#brad-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove:hover {
+	color: #fff;
+	background: #FF0000;
+}
+
+/* form elements */
+
+/* - all */
+#brad-sc-form-table tbody tr.form-row .brad-form-text,
+#brad-sc-form-table tbody tr.form-row .brad-form-textarea,
+#brad-sc-form-table tbody tr.form-row .brad-form-select {
+	-webkit-appearance: none;
+	border: 1px solid #e1e1e1;
+	padding: 6px 4px;
+	outline: none;
+	font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #777;
+	margin: 0;
+	width:100%;
+	max-width: 100%;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background: #fff;
+	height: auto;
+}
+
+#brad-sc-form-table tbody tr.form-row .brad-form-text:focus,
+#brad-sc-form-table tbody tr.form-row .brad-form-textarea:focus,
+#brad-sc-form-table tbody tr.form-row .brad-form-select:focus {
+	border: 1px solid #aaa;
+	color: #555;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.05);
+	box-shadow: 0 0 3px rgba(0,0,0,.05);
+}
+
+#brad-sc-form-table tbody tr.form-row.has-child .brad-form-text,
+#brad-sc-form-table tbody tr.form-row.has-child .brad-form-textarea,
+#brad-sc-form-table tbody tr.form-row.has-child .brad-form-select {
+	background: #fff;
+}
+#brad-sc-form-table tbody tr.form-row .brad-form-select {
+	background: #fff url(../images/select.png) no-repeat center right;
+	padding-right: 35px;
+}
+/* - textarea */
+#brad-sc-form-table tbody tr.form-row .brad-form-textarea {
+	height: 120px;
+}
+#brad-sc-form-table tbody tr.form-row.has-child .brad-form-textarea {
+	height: 100px;
+}
+
+/* button */
+#brad-sc-form-table .brad-insert {
+	color:#ffffff!important;
+	line-height:26px;
+}
+
+
+/* - desc */
+#brad-sc-form-table tbody tr.form-row .field .brad-form-desc,
+#brad-sc-form-table tbody tr.form-row .child-clone-row-desc {
+	display: block;
+	font-size:  12px;
+	color: #aaa;
+	font-style: italic;
+	padding-top: 3px;
+}
+
+#brad-sc-form-table tbody tr.form-row .child-clone-row-desc{ padding-bottom:10px; padding-top:0}
+
+#brad-sc-form-table tbody tr.form-row [class^="icon-"],
+#brad-sc-form-table tbody tr.form-row [class*=" icon-"] {
+	margin-right: -1px;
+	margin-top: -1px;
+	text-align: center;
+	vertical-align: middle!important;
+	font-size: 24px!important;
+	height: 35px;
+	cursor: pointer;
+	line-height: 35px!important;
+	width: 35px;
+	border: 1px solid #d8d8d8;
+	background-color: #fefefe;
+	display: inline-block;
+}
+#brad-sc-form-table tbody tr.form-row [class^="icon-"]:hover,
+#brad-sc-form-table tbody tr.form-row [class*=" icon-"]:hover  {
+	position: relative;
+	z-index: 200;
+	transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	color: #3498db;
+	background-color: #fcfcfc
+}
+#brad-sc-form-table tbody tr.form-row [class^="icon-"].selected,
+#brad-sc-form-table tbody tr.form-row [class*=" icon-"].selected {
+	color: #3498db;
+	border: 1px solid #fff!important;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+#brad-sc-form-table .iconpicker {
+	background: #fff;
+	height: 250px;
+	overflow-y: scroll;
+	border: 1px solid #AAA;
+	cursor: pointer;
+}
+
+
+
+
+/* IE8, IE9 */
+#brad-sc-form-table tbody tr.form-row .arrow  {display: none\0/;} /* must go at the END of all rules */

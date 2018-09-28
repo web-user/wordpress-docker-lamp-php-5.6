@@ -1,0 +1,297 @@
+@font-face { font-family: MyriadPro; src: url('font/MyriadPro-Light.otf'); } 
+@font-face { font-family: MyriadProCond; src: url('font/MyriadPro-Cond.otf'); } 
+
+html {
+    background: #222222;
+}
+
+h1 {
+    font-family: MyriadProCond!important;
+    font-size: 58px;
+    color: #129271;
+}
+
+h2 {
+    font-weight: 300!important;
+}
+
+h4 {
+    font-family: MyriadProCond!important;
+    font-size: 24px;
+    color: #1c5140;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #129271!important;
+}
+
+.page-id-2940 #sidebar,
+.parent-pageid-2940 #sidebar {
+    margin-top: -10px;
+}
+
+.behandling-item {
+    width: 100%;
+    font-style: italic;
+    clear: both;
+    border-top: 1px solid #E8E8E8;
+
+    display: table;
+
+}
+.behandling-item:hover {
+	color: #129271;
+}
+.behandling-item:hover div span {
+	text-decoration: underline;
+}
+
+.behandling-item img {
+    float: left;
+    width: 30%;
+    padding: 12px 0;
+}
+
+.behandling-item div {
+    float: right;
+    width: 60%;
+    padding:10px 0;
+}
+
+.behandling-item div span {
+    font-size: 17px;
+    margin-bottom: 5px;
+    clear: both;
+    float: left;
+}
+
+.behandling-item div p {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    float: left;
+}
+
+.person {
+    margin-bottom: 30px;
+}
+
+.person h4 {
+    font-size: 24px;
+}
+
+.person h6 {
+    color: #129271;
+    font-weight: 400;
+}
+
+/*
+forside boxes
+*/
+
+.frontpage-contact {
+    color: #fff;
+}
+.frontpage-contact span,
+.frontpage-contact h2,
+.frontpage-contact p,
+.frontpage-contact a {
+    color: #fff;
+}
+
+.frontpage-contact .single-image-container {
+    margin-bottom: 15px;
+}
+
+.frontpage-contact p {
+    font-size: 16px;
+}
+
+.frontpage-boxes {}
+.frontpage-boxes .fpbox {
+    text-align: center;
+}
+.frontpage-boxes .fpbox a {
+    font-family: MyriadProCond!important;
+    font-size: 24px;
+    color: #1c5140;
+    line-height: 50px;
+}
+
+.frontpage-boxes .fpimg {
+width: 75px;
+height: 75px;
+margin: 0 auto;
+margin-bottom: 20px;
+text-indent: -9999px;
+display: block;
+}
+
+.frontpage-boxes .fpbox:hover .fpimg {
+background-position: bottom;
+}
+
+.frontpage-boxes .helsesjekkbox .fpimg {
+    background: url(img/helse-sjekk.png) left top no-repeat;
+}
+.frontpage-boxes .enkelultralydbox .fpimg {
+    background: url(img/enkel-sjekk.png) left top no-repeat;
+}
+.frontpage-boxes .jordmorbox .fpimg {
+    background: url(img/jordmor-sjekk.png) left top no-repeat;
+}
+
+.fpkontaktbox {
+text-align: center;
+}
+
+.fpkontaktbox .brad-icon {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 13px;
+    border: 2px solid #1E9172;
+    border-radius: 50px;
+}
+.fpkontaktbox .brad-icon i {
+    color: #1E9172;
+    font-size: 35px;
+    line-height: 55px;
+}
+.fpkontaktbox:hover .brad-icon {
+background: #1E9172;
+}
+.fpkontaktbox:hover .brad-icon i {
+color: #fff;
+}
+.fpkontaktbox h4{
+margin-bottom: 14px;
+}
+
+.prisbox {
+    text-align: right;
+    max-width: 390px;
+    margin: 0 auto;
+}
+.prisbox a {
+    float: left;
+    color: #129271;
+}
+
+.marginbottom30 {
+    margin-bottom: 30px!important;
+}
+
+#main_navigation.shrinked {
+    padding: 10px 0;
+}
+
+.followus {
+    font-size: 35px;
+    display: block;
+    line-height: 35px;
+}
+
+.followus i {
+    padding-top: 20px;
+}
+
+/*
+active state on vaare tjenester leftmenu
+*/
+
+.page-id-2978 .textwidget a:nth-child(1) span,
+.page-id-2984 .textwidget a:nth-child(2) span,
+.page-id-2986 .textwidget a:nth-child(3) span,
+.page-id-2988 .textwidget a:nth-child(4) span,
+.page-id-2994 .textwidget a:nth-child(5) span,
+.page-id-2996 .textwidget a:nth-child(6) span,
+.page-id-2998 .textwidget a:nth-child(7) span,
+.page-id-3000 .textwidget a:nth-child(8) span,
+.page-id-3002 .textwidget a:nth-child(9) span,
+.page-id-3004 .textwidget a:nth-child(10) span,
+.page-id-3006 .textwidget a:nth-child(11) span,
+.page-id-3008 .textwidget a:nth-child(12) span,
+.page-id-3010 .textwidget a:nth-child(13) span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#mobile_navigation .mobile_menu {
+    margin-bottom: 50px;
+}
+
+.close-m-menu {
+    float: right;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+@media screen and (min-width: 750px) {
+.page-id-3227 .section,
+.page-id-3065 .section {
+    min-height: 1050px;
+}
+}
+
+@media screen and (max-width: 800px) {
+h1 {
+    line-height: 94px!important;
+}
+
+.footer-menu li {
+    line-height: 20px;
+}
+
+.footer-menu li:first-child {
+    padding-left: 0;
+}
+
+}
+
+@media screen and (max-width: 550px) {
+.footer-menu li {
+    width: 100%;
+    clear: both;
+    border: 0;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 500px) {
+h1 {
+    font-size: 58px!important;
+    line-height: 94px!important;
+}
+}
+
+@media screen and (max-width: 380px) {
+.logo-container {
+    max-width: 65%;
+}
+.logo-container #logo,
+.logo-container #logo img {
+    width: 100%;
+    height: auto!important;
+}
+
+}
+
+@media screen and (max-width: 340px) {
+.prisbox {
+    text-align: left;
+}
+.prisbox a {
+    width: 100%;
+    clear: both;
+}
+}
+
+@media screen and (max-width: 310px) {
+h1 {
+    font-size: 58px!important;
+    line-height: 40px!important;
+    margin-top: 20px;
+}
+}

@@ -461,13 +461,6 @@ setCommentsList = function() {
 			updateCountText( 'span.trash-count', trashDiff );
 		}
 
-		if (
-			( ( 'trash' === settings.data.comment_status ) && !getCount( $( 'span.trash-count' ) ) ) ||
-			( ( 'spam' === settings.data.comment_status ) && !getCount( $( 'span.spam-count' ) ) )
-		) {
-			$( '#delete_all' ).hide();
-		}
-
 		if ( ! isDashboard ) {
 			total = totalInput.val() ? parseInt( totalInput.val(), 10 ) : 0;
 			if ( $(settings.target).parent().is('span.undo') )
@@ -653,9 +646,7 @@ commentReply = {
 		$('#com-reply').append( replyrow );
 		$('#replycontent').css('height', '').val('');
 		$('#edithead input').val('');
-		$( '.notice-error', replyrow )
-			.addClass( 'hidden' )
-			.find( '.error' ).empty();
+		$('.error', replyrow).empty().hide();
 		$( '.spinner', replyrow ).removeClass( 'is-active' );
 
 		this.cid = '';
@@ -756,10 +747,9 @@ commentReply = {
 	},
 
 	send : function() {
-		var post = {},
-			$errorNotice = $( '#replysubmit .error-notice' );
+		var post = {};
 
-		$errorNotice.addClass( 'hidden' );
+		$('#replysubmit .error').hide();
 		$( '#replysubmit .spinner' ).addClass( 'is-active' );
 
 		$('#replyrow input').not(':button').each(function() {
@@ -850,19 +840,16 @@ commentReply = {
 	},
 
 	error : function(r) {
-		var er = r.statusText,
-			$errorNotice = $( '#replysubmit .notice-error' ),
-			$error = $errorNotice.find( '.error' );
+		var er = r.statusText;
 
 		$( '#replysubmit .spinner' ).removeClass( 'is-active' );
 
 		if ( r.responseText )
 			er = r.responseText.replace( /<.[^<>]*?>/g, '' );
 
-		if ( er ) {
-			$errorNotice.removeClass( 'hidden' );
-			$error.html( er );
-		}
+		if ( er )
+			$('#replysubmit .error').html(er).show();
+
 	},
 
 	addcomment: function(post_id) {

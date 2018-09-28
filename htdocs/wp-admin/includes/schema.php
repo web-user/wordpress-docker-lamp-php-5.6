@@ -516,9 +516,6 @@ function populate_options() {
 	// 4.4.0
 	'medium_large_size_w' => 768,
 	'medium_large_size_h' => 0,
-
-		// 4.9.6
-		'wp_page_for_privacy_policy'      => 0,
 	);
 
 	// 3.3
@@ -587,8 +584,27 @@ function populate_options() {
 	// Delete obsolete magpie stuff.
 	$wpdb->query("DELETE FROM $wpdb->options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'");
 
-	// Clear expired transients
-	delete_expired_transients( true );
+	/*
+	 * Deletes all expired transients. The multi-table delete syntax is used
+	 * to delete the transient record from table a, and the corresponding
+	 * transient_timeout record from table b.
+	 */
+	$time = time();
+	$sql = "DELETE a, b FROM $wpdb->options a, $wpdb->options b
+		WHERE a.option_name LIKE %s
+		AND a.option_name NOT LIKE %s
+		AND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )
+		AND b.option_value < %d";
+	$wpdb->query( $wpdb->prepare( $sql, $wpdb->esc_like( '_transient_' ) . '%', $wpdb->esc_like( '_transient_timeout_' ) . '%', $time ) );
+
+	if ( is_main_site() && is_main_network() ) {
+		$sql = "DELETE a, b FROM $wpdb->options a, $wpdb->options b
+			WHERE a.option_name LIKE %s
+			AND a.option_name NOT LIKE %s
+			AND b.option_name = CONCAT( '_site_transient_timeout_', SUBSTRING( a.option_name, 17 ) )
+			AND b.option_value < %d";
+		$wpdb->query( $wpdb->prepare( $sql, $wpdb->esc_like( '_site_transient_' ) . '%', $wpdb->esc_like( '_site_transient_timeout_' ) . '%', $time ) );
+	}
 }
 
 /**
@@ -845,12 +861,13 @@ function populate_roles_300() {
 	}
 }
 
-if ( !function_exists( 'install_network' ) ) :
 /**
  * Install Network.
  *
  * @since 3.0.0
+ *
  */
+if ( !function_exists( 'install_network' ) ) :
 function install_network() {
 	if ( ! defined( 'WP_INSTALLING_NETWORK' ) )
 		define( 'WP_INSTALLING_NETWORK', true );
@@ -874,9 +891,9 @@ endif;
  * @param string $email             Email address for the network administrator.
  * @param string $site_name         The name of the network.
  * @param string $path              Optional. The path to append to the network's domain name. Default '/'.
- * @param bool   $subdomain_install Optional. Whether the network is a subdomain installation or a subdirectory installation.
- *                                  Default false, meaning the network is a subdirectory installation.
- * @return bool|WP_Error True on success, or WP_Error on warning (with the installation otherwise successful,
+ * @param bool   $subdomain_install Optional. Whether the network is a subdomain install or a subdirectory install.
+ *                                  Default false, meaning the network is a subdirectory install.
+ * @return bool|WP_Error True on success, or WP_Error on warning (with the install otherwise successful,
  *                       so the error code must be checked) or failure.
  */
 function populate_network( $network_id = 1, $domain = '', $email = '', $site_name = '', $path = '/', $subdomain_install = false ) {
@@ -889,16 +906,8 @@ function populate_network( $network_id = 1, $domain = '', $email = '', $site_nam
 		$errors->add( 'empty_sitename', __( 'You must provide a name for your network of sites.' ) );
 
 	// Check for network collision.
-	$network_exists = false;
-	if ( is_multisite() ) {
-		if ( get_network( (int) $network_id ) ) {
-			$errors->add( 'siteid_exists', __( 'The network already exists.' ) );
-		}
-	} else {
-		if ( $network_id == $wpdb->get_var( $wpdb->prepare( "SELECT id FROM $wpdb->site WHERE id = %d", $network_id ) ) ) {
-			$errors->add( 'siteid_exists', __( 'The network already exists.' ) );
-		}
-	}
+	if ( $network_id == $wpdb->get_var( $wpdb->prepare( "SELECT id FROM $wpdb->site WHERE id = %d", $network_id ) ) )
+		$errors->add( 'siteid_exists', __( 'The network already exists.' ) );
 
 	if ( ! is_email( $email ) )
 		$errors->add( 'invalid_email', __( 'You must provide a valid email address.' ) );
@@ -943,16 +952,12 @@ function populate_network( $network_id = 1, $domain = '', $email = '', $site_nam
 
 	if ( !is_multisite() ) {
 		$site_admins = array( $site_user->user_login );
-		$users = get_users( array(
-			'fields' => array( 'user_login' ),
-			'role'   => 'administrator',
-		) );
+		$users = get_users( array( 'fields' => array( 'ID', 'user_login' ) ) );
 		if ( $users ) {
 			foreach ( $users as $user ) {
-				$site_admins[] = $user->user_login;
+				if ( is_super_admin( $user->ID ) && !in_array( $user->user_login, $site_admins ) )
+					$site_admins[] = $user->user_login;
 			}
-
-			$site_admins = array_unique( $site_admins );
 		}
 	} else {
 		$site_admins = get_site_option( 'site_admins' );

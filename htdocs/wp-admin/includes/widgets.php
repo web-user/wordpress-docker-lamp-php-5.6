@@ -80,10 +80,7 @@ function wp_list_widget_controls( $sidebar, $sidebar_name = '' ) {
 	if ( $sidebar_name ) {
 		?>
 		<div class="sidebar-name">
-			<button type="button" class="handlediv hide-if-no-js" aria-expanded="true">
-				<span class="screen-reader-text"><?php echo esc_html( $sidebar_name ); ?></span>
-				<span class="toggle-indicator" aria-hidden="true"></span>
-			</button>
+			<div class="sidebar-name-arrow"><br /></div>
 			<h2><?php echo esc_html( $sidebar_name ); ?> <span class="spinner"></span></h2>
 		</div>
 		<?php
@@ -222,10 +219,7 @@ function wp_widget_control( $sidebar_args ) {
 	echo $sidebar_args['before_widget']; ?>
 	<div class="widget-top">
 	<div class="widget-title-action">
-		<button type="button" class="widget-action hide-if-no-js" aria-expanded="false">
-			<span class="screen-reader-text"><?php printf( __( 'Edit widget: %s' ), $widget_title ); ?></span>
-			<span class="toggle-indicator" aria-hidden="true"></span>
-		</button>
+		<a class="widget-action hide-if-no-js" href="#available-widgets"></a>
 		<a class="widget-control-edit hide-if-js" href="<?php echo esc_url( add_query_arg( $query_arg ) ); ?>">
 			<span class="edit"><?php _ex( 'Edit', 'widget' ); ?></span>
 			<span class="add"><?php _ex( 'Add', 'widget' ); ?></span>
@@ -256,11 +250,8 @@ function wp_widget_control( $sidebar_args ) {
 
 	<div class="widget-control-actions">
 		<div class="alignleft">
-			<button type="button" class="button-link button-link-delete widget-control-remove"><?php _e( 'Delete' ); ?></button>
-			<span class="widget-control-close-wrapper">
-				|
-				<button type="button" class="button-link widget-control-close"><?php _e( 'Done' ); ?></button>
-			</span>
+		<a class="widget-control-remove" href="#remove"><?php _e('Delete'); ?></a> |
+		<a class="widget-control-close" href="#close"><?php _e('Close'); ?></a>
 		</div>
 		<div class="alignright<?php if ( 'noform' === $has_form ) echo ' widget-control-noform'; ?>">
 			<?php submit_button( __( 'Save' ), 'primary widget-control-save right', 'savewidget', false, array( 'id' => 'widget-' . esc_attr( $id_format ) . '-savewidget' ) ); ?>

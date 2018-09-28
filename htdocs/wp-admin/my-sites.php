@@ -55,26 +55,23 @@ if ( $updated ) { ?>
 <?php } ?>
 
 <div class="wrap">
-<h1 class="wp-heading-inline"><?php
+<h1><?php
 echo esc_html( $title );
-?></h1>
 
-<?php
 if ( in_array( get_site_option( 'registration' ), array( 'all', 'blog' ) ) ) {
 	/** This filter is documented in wp-login.php */
 	$sign_up_url = apply_filters( 'wp_signup_location', network_site_url( 'wp-signup.php' ) );
 	printf( ' <a href="%s" class="page-title-action">%s</a>', esc_url( $sign_up_url ), esc_html_x( 'Add New', 'site' ) );
 }
+?></h1>
 
+<?php
 if ( empty( $blogs ) ) :
 	echo '<p>';
 	_e( 'You must be a member of at least one site to use this page.' );
 	echo '</p>';
 else :
 ?>
-
-<hr class="wp-header-end">
-
 <form id="myblogs" method="post">
 	<?php
 	choose_primary_blog();
@@ -95,7 +92,7 @@ else :
 	 * string to this filter will enable the section, and allow new settings
 	 * to be added, either globally or for specific sites.
 	 *
-	 * @since MU (3.0.0)
+	 * @since MU
 	 *
 	 * @param string $settings_html The settings HTML markup. Default empty.
 	 * @param object $context       Context of the setting (global or site-specific). Default 'global'.
@@ -108,33 +105,20 @@ else :
 	reset( $blogs );
 
 	foreach ( $blogs as $user_blog ) {
-		switch_to_blog( $user_blog->userblog_id );
-
 		echo "<li>";
 		echo "<h3>{$user_blog->blogname}</h3>";
-
-		$actions = "<a href='" . esc_url( home_url() ). "'>" . __( 'Visit' ) . '</a>';
-
-		if ( current_user_can( 'read' ) ) {
-			$actions .= " | <a href='" . esc_url( admin_url() ) . "'>" . __( 'Dashboard' ) . '</a>';
-		}
-
 		/**
 		 * Filters the row links displayed for each site on the My Sites screen.
 		 *
-		 * @since MU (3.0.0)
+		 * @since MU
 		 *
-		 * @param string $actions   The HTML site link markup.
+		 * @param string $string    The HTML site link markup.
 		 * @param object $user_blog An object containing the site data.
 		 */
-		$actions = apply_filters( 'myblogs_blog_actions', $actions, $user_blog );
-		echo "<p class='my-sites-actions'>" . $actions . '</p>';
-
+		echo "<p class='my-sites-actions'>" . apply_filters( 'myblogs_blog_actions', "<a href='" . esc_url( get_home_url( $user_blog->userblog_id ) ). "'>" . __( 'Visit' ) . "</a> | <a href='" . esc_url( get_admin_url( $user_blog->userblog_id ) ) . "'>" . __( 'Dashboard' ) . "</a>", $user_blog ) . "</p>";
 		/** This filter is documented in wp-admin/my-sites.php */
 		echo apply_filters( 'myblogs_options', '', $user_blog );
 		echo "</li>";
-
-		restore_current_blog();
 	}?>
 	</ul>
 	<?php

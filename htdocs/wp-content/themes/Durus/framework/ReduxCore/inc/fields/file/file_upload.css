@@ -1,0 +1,19 @@
+.icon-font-container{
+	background-color:#454545;
+	padding:8px 10px;
+	width:150px;
+	height:auto;
+	text-align:center;
+	color:#fcfcfc;
+	font-size:12px;
+	line-height:22px;
+	margin-bottom:15px;
+}
+.icon-font-container:empty{
+	display:none;
+}
+
+.icon_font_uploading{
+	padding:10px;
+	display:none;
+}

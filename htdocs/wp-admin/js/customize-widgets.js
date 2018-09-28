@@ -13,6 +13,7 @@
 	// Link settings
 	api.Widgets.data = _wpCustomizeWidgetsSettings || {};
 	l10n = api.Widgets.data.l10n;
+	delete api.Widgets.data.l10n;
 
 	/**
 	 * wp.customize.Widgets.WidgetModel
@@ -330,10 +331,6 @@
 				}
 			} );
 
-			if ( api.section.has( 'publish_settings' ) ) {
-				api.section( 'publish_settings' ).collapse();
-			}
-
 			$( 'body' ).addClass( 'adding-widget' );
 
 			this.$el.find( '.selected' ).removeClass( 'selected' );
@@ -554,10 +551,6 @@
 			}
 			control.widgetContentEmbedded = true;
 
-			// Update the notification container element now that the widget content has been embedded.
-			control.notifications.container = control.getNotificationsContainerElement();
-			control.notifications.render();
-
 			widgetContent = $( control.params.widget_content );
 			control.container.find( '.widget-content:first' ).append( widgetContent );
 
@@ -601,7 +594,7 @@
 			var self = this, $widgetInside, $widgetForm, $customizeSidebar,
 				$themeControlsContainer, positionWidget;
 
-			if ( ! this.params.is_wide || $( window ).width() <= 640 /* max-width breakpoint in customize-controls.css */ ) {
+			if ( ! this.params.is_wide ) {
 				return;
 			}
 
@@ -610,7 +603,7 @@
 			$customizeSidebar = $( '.wp-full-overlay-sidebar-content:first' );
 			this.container.addClass( 'wide-widget-control' );
 
-			this.container.find( '.form:first' ).css( {
+			this.container.find( '.widget-content:first' ).css( {
 				'max-width': this.params.width,
 				'min-height': this.params.height
 			} );
@@ -960,7 +953,7 @@
 			var self = this, $removeBtn, replaceDeleteWithRemove;
 
 			// Configure remove button
-			$removeBtn = this.container.find( '.widget-control-remove' );
+			$removeBtn = this.container.find( 'a.widget-control-remove' );
 			$removeBtn.on( 'click', function( e ) {
 				e.preventDefault();
 
@@ -996,7 +989,7 @@
 			} );
 
 			replaceDeleteWithRemove = function() {
-				$removeBtn.text( l10n.removeBtnLabel ); // wp_widget_control() outputs the button as "Delete"
+				$removeBtn.text( l10n.removeBtnLabel ); // wp_widget_control() outputs the link as "Delete"
 				$removeBtn.attr( 'title', l10n.removeBtnTooltip );
 			};
 
@@ -1375,7 +1368,7 @@
 		 * @param {Object} args  merged on top of this.defaultActiveArguments
 		 */
 		onChangeExpanded: function ( expanded, args ) {
-			var self = this, $widget, $inside, complete, prevComplete, expandControl, $toggleBtn;
+			var self = this, $widget, $inside, complete, prevComplete, expandControl;
 
 			self.embedWidgetControl(); // Make sure the outer form is embedded so that the expanded state can be set in the UI.
 			if ( expanded ) {
@@ -1394,7 +1387,6 @@
 
 			$widget = this.container.find( 'div.widget:first' );
 			$inside = $widget.find( '.widget-inside:first' );
-			$toggleBtn = this.container.find( '.widget-top button.widget-action' );
 
 			expandControl = function() {
 
@@ -1408,8 +1400,6 @@
 				complete = function() {
 					self.container.removeClass( 'expanding' );
 					self.container.addClass( 'expanded' );
-					$widget.addClass( 'open' );
-					$toggleBtn.attr( 'aria-expanded', 'true' );
 					self.container.trigger( 'expanded' );
 				};
 				if ( args.completeCallback ) {
@@ -1439,11 +1429,10 @@
 					expandControl();
 				}
 			} else {
+
 				complete = function() {
 					self.container.removeClass( 'collapsing' );
 					self.container.removeClass( 'expanded' );
-					$widget.removeClass( 'open' );
-					$toggleBtn.attr( 'aria-expanded', 'false' );
 					self.container.trigger( 'collapsed' );
 				};
 				if ( args.completeCallback ) {
@@ -1588,86 +1577,36 @@
 			api.Panel.prototype.ready.call( panel );
 
 			panel.deferred.embedded.done(function() {
-				var panelMetaContainer, noticeContainer, updateNotice, getActiveSectionCount, shouldShowNotice;
+				var panelMetaContainer, noRenderedAreasNotice, shouldShowNotice;
 				panelMetaContainer = panel.container.find( '.panel-meta' );
-
-				// @todo This should use the Notifications API introduced to panels. See <https://core.trac.wordpress.org/ticket/38794>.
-				noticeContainer = $( '<div></div>', {
+				noRenderedAreasNotice = $( '<div></div>', {
 					'class': 'no-widget-areas-rendered-notice'
 				});
-				panelMetaContainer.append( noticeContainer );
+				noRenderedAreasNotice.append( $( '<em></em>', {
+					text: l10n.noAreasRendered
+				} ) );
+				panelMetaContainer.append( noRenderedAreasNotice );
 
-				/**
-				 * Get the number of active sections in the panel.
-				 *
-				 * @return {number} Number of active sidebar sections.
-				 */
-				getActiveSectionCount = function() {
-					return _.filter( panel.sections(), function( section ) {
-						return section.active();
-					} ).length;
-				};
-
-				/**
-				 * Determine whether or not the notice should be displayed.
-				 *
-				 * @return {boolean}
-				 */
 				shouldShowNotice = function() {
-					var activeSectionCount = getActiveSectionCount();
-					if ( 0 === activeSectionCount ) {
-						return true;
-					} else {
-						return activeSectionCount !== api.Widgets.data.registeredSidebars.length;
-					}
+					return ( 0 === _.filter( panel.sections(), function( section ) {
+						return section.active();
+					} ).length );
 				};
-
-				/**
-				 * Update the notice.
-				 *
-				 * @returns {void}
-				 */
-				updateNotice = function() {
-					var activeSectionCount = getActiveSectionCount(), someRenderedMessage, nonRenderedAreaCount, registeredAreaCount;
-					noticeContainer.empty();
-
-					registeredAreaCount = api.Widgets.data.registeredSidebars.length;
-					if ( activeSectionCount !== registeredAreaCount ) {
-
-						if ( 0 !== activeSectionCount ) {
-							nonRenderedAreaCount = registeredAreaCount - activeSectionCount;
-							someRenderedMessage = l10n.someAreasShown[ nonRenderedAreaCount ];
-						} else {
-							someRenderedMessage = l10n.noAreasShown;
-						}
-						if ( someRenderedMessage ) {
-							noticeContainer.append( $( '<p></p>', {
-								text: someRenderedMessage
-							} ) );
-						}
-
-						noticeContainer.append( $( '<p></p>', {
-							text: l10n.navigatePreview
-						} ) );
-					}
-				};
-				updateNotice();
 
 				/*
 				 * Set the initial visibility state for rendered notice.
 				 * Update the visibility of the notice whenever a reflow happens.
 				 */
-				noticeContainer.toggle( shouldShowNotice() );
+				noRenderedAreasNotice.toggle( shouldShowNotice() );
 				api.previewer.deferred.active.done( function () {
-					noticeContainer.toggle( shouldShowNotice() );
+					noRenderedAreasNotice.toggle( shouldShowNotice() );
 				});
 				api.bind( 'pane-contents-reflowed', function() {
 					var duration = ( 'resolved' === api.previewer.deferred.active.state() ) ? 'fast' : 0;
-					updateNotice();
 					if ( shouldShowNotice() ) {
-						noticeContainer.slideDown( duration );
+						noRenderedAreasNotice.slideDown( duration );
 					} else {
-						noticeContainer.slideUp( duration );
+						noRenderedAreasNotice.slideUp( duration );
 					}
 				});
 			});
@@ -2102,20 +2041,24 @@
 
 			controlConstructor = api.controlConstructor[controlType];
 			widgetFormControl = new controlConstructor( settingId, {
-				settings: {
-					'default': settingId
+				params: {
+					settings: {
+						'default': settingId
+					},
+					content: controlContainer,
+					sidebar_id: self.params.sidebar_id,
+					widget_id: widgetId,
+					widget_id_base: widget.get( 'id_base' ),
+					type: controlType,
+					is_new: ! isExistingWidget,
+					width: widget.get( 'width' ),
+					height: widget.get( 'height' ),
+					is_wide: widget.get( 'is_wide' ),
+					active: true
 				},
-				content: controlContainer,
-				sidebar_id: self.params.sidebar_id,
-				widget_id: widgetId,
-				widget_id_base: widget.get( 'id_base' ),
-				type: controlType,
-				is_new: ! isExistingWidget,
-				width: widget.get( 'width' ),
-				height: widget.get( 'height' ),
-				is_wide: widget.get( 'is_wide' )
+				previewer: self.setting.previewer
 			} );
-			api.control.add( widgetFormControl );
+			api.control.add( settingId, widgetFormControl );
 
 			// Make sure widget is removed from the other sidebars
 			api.each( function( otherSetting ) {
